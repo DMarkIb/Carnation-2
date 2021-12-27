@@ -1,1 +1,2 @@
-# Carnation-2
+# Carnation
+GE LAb Project
