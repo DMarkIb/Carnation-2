@@ -25,7 +25,7 @@ public class Wim : MonoBehaviour
     {
         clicked++;
         clicktime = Time.time;
-        Debug.Log("Click");
+        Debug.Log("ClickWim");
     }
 
 

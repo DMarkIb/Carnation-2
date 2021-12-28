@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="InBewegung" ID="{A3CA8539-BD90-4BBC-9203-FE80E0345F2C}">
+					<ChildrenList>
+						<Action Name="" ID="{B98D0FB8-D627-4349-B174-953840329A53}" ShortID="364670539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="schritte" ID="{6181095B-AB0F-4926-B8A9-BC7178EAFFF8}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Test" ID="{3B973AB4-C364-4683-9617-ABFA93954227}">
+					<ChildrenList>
+						<Action Name="" ID="{0586755C-0C4A-49B6-9396-96ED93C341C9}" ShortID="1027900894">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Knife__My_last_resort" ID="{EB91B061-6939-4EF9-B9D0-DDBFAD41DF2E}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -31,7 +31,7 @@ public class Trigger : MonoBehaviour
     {
         clicked++;
         clicktime = Time.time;
-        Debug.Log("Click");
+        Debug.Log("ClickTrigger");
     }
 
     public void OnMouseEnter()
