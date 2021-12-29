@@ -8,7 +8,7 @@ public class PostWwiseEvent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TestEvent.Post(gameObject);    
+        //TestEvent.Post(gameObject);    
     }
 
     public void SchrittSound()
