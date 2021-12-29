@@ -32,6 +32,9 @@ public class Trigger : MonoBehaviour
         clicked++;
         clicktime = Time.time;
         Debug.Log("ClickTrigger");
+
+        //if schleife, prüfen welches objekt geklickt
+
     }
 
     public void OnMouseEnter()

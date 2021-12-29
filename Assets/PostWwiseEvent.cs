@@ -11,4 +11,9 @@ public class PostWwiseEvent : MonoBehaviour
         TestEvent.Post(gameObject);    
     }
 
+    public void SchrittSound()
+    {
+        TestEvent.Post(gameObject);
+    }
+
 }
