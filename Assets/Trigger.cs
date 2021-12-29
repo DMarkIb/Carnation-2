@@ -76,7 +76,6 @@ public class Trigger : MonoBehaviour
                 gameObject.GetComponent<Outline>().enabled = false;
 
                 StartCoroutine(waiter());
-
             }
 
             doppelklick = false;
@@ -89,7 +88,10 @@ public class Trigger : MonoBehaviour
         //GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;
         Debug.Log("Interaction");
         cam1.GetComponent<Camera>().enabled = true;
-        maincam.GetComponent<Camera>().enabled = false;
+        maincam.GetComponent<Camera>().enabled = false; 
+
+        //HIER KAMERA SWITCH
+
         Spieler.SetActive(false);
         Wimmelbild = true;
         Player.SetBool("Interaction", false);
