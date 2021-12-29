@@ -18,7 +18,8 @@ public class Wim : MonoBehaviour
     void Start()
     {
         Spieler = GameObject.Find("Spielfigur");
-        
+
+        //gameObject.GetComponent<Outline>().enabled = false;
     }
 
     public void OnMouseDown()
@@ -28,6 +29,17 @@ public class Wim : MonoBehaviour
         Debug.Log("ClickWim");
     }
 
+    //public void OnMouseEnter()
+    //{
+    //    if (!Wimmelbild)
+    //        gameObject.GetComponent<Outline>().enabled = true;
+    //}
+//
+    //public void OnMouseExit()
+    //{
+    //    if (!Wimmelbild)
+    //        gameObject.GetComponent<Outline>().enabled = false;
+    //}
 
     // Update is called once per frame
     void Update()
