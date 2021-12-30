@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectOutlines : MonoBehaviour
 {
-    bool Wimmelbild = false;
+    bool Outlines = false;
 
     // Start is called before the first frame update
     public void Start()
@@ -20,16 +20,15 @@ public class ObjectOutlines : MonoBehaviour
 
     public void OnMouseEnter()
     {
-        Wimmelbild = true;
-        if (Wimmelbild)
+        Outlines = true;
+        if (Outlines)
             gameObject.GetComponent<Outline>().enabled = true;
     }
 
     public void OnMouseExit()
     {
-        Wimmelbild = false;
-        if (!Wimmelbild)
+        Outlines = false;
+        if (!Outlines)
             gameObject.GetComponent<Outline>().enabled = false;
-        
     }
 }
