@@ -15,7 +15,7 @@ public class ObjectOutlines : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //Das hier ist ein Kommentar von Ronja
     }
 
     public void OnMouseEnter()
