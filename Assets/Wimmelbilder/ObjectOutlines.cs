@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectOutlines : MonoBehaviour
 {
-    bool Outlines = false;
+    bool Outliness = false;
 
     // Start is called before the first frame update
     public void Start()
@@ -15,20 +15,20 @@ public class ObjectOutlines : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //HALLO HIER IST DER KOMMENTAR
+
     }
 
     public void OnMouseEnter()
     {
-        Outlines = true;
-        if (Outlines)
+        Outliness = true;
+        if (Outliness)
             gameObject.GetComponent<Outline>().enabled = true;
     }
 
     public void OnMouseExit()
     {
-        Outlines = false;
-        if (!Outlines)
+        Outliness = false;
+        if (!Outliness)
             gameObject.GetComponent<Outline>().enabled = false;
     }
 }
