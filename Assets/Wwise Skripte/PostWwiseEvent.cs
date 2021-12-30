@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class PostWwiseEvent : MonoBehaviour
 {
-    public AK.Wwise.Event TestEvent;
+    public AK.Wwise.Event Schritt;
+    public AK.Wwise.Event Voice;
     // Start is called before the first frame update
     void Start()
     {
-        //TestEvent.Post(gameObject);    
+        Voice.Post(gameObject);
+        Debug.Log("Voiceline");
     }
 
     public void SchrittSound()
     {
-        TestEvent.Post(gameObject);
+        Schritt.Post(gameObject);
     }
 
 }

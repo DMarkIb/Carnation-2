@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID INBEWEGUNG = 426932622U;
+        static const AkUniqueID INTERACTION = 3900887599U;
     } // namespace EVENTS
 
     namespace BANKS
