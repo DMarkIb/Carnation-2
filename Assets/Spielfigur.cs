@@ -57,10 +57,12 @@ public class Spielfigur : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit))
         {
-            Ziel = hit.point;
-            Player.SetBool("InBewegung", true);
-            agent.SetDestination(hit.point);
-
+            //if (hit.collider.CompareTag("Boden"))
+            {
+                Ziel = hit.point;
+                Player.SetBool("InBewegung", true);
+                agent.SetDestination(hit.point);
+            }
         }
     }
     void CheckDestinationReached()

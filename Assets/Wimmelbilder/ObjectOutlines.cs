@@ -20,13 +20,16 @@ public class ObjectOutlines : MonoBehaviour
 
     public void OnMouseEnter()
     {
-        if (!Wimmelbild)
+        Wimmelbild = true;
+        if (Wimmelbild)
             gameObject.GetComponent<Outline>().enabled = true;
     }
 
     public void OnMouseExit()
     {
+        Wimmelbild = false;
         if (!Wimmelbild)
             gameObject.GetComponent<Outline>().enabled = false;
+        
     }
 }
