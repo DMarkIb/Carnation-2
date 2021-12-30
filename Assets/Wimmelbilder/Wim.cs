@@ -62,9 +62,10 @@ public class Wim : MonoBehaviour
 
         if (doppelklick)
         {
-            //Vorher spielen, wenn alles erledigt ist "Fertig" auf true stellen 
+            //VOICELINE
 
-            Fertig = true;
+            //Vorher spielen, wenn alles erledigt ist "Fertig" auf true stellen 
+            //Fertig = true;
 
             if (Fertig)
             {

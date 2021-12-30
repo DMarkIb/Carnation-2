@@ -3,11 +3,16 @@ guid: c1d7be6d35730ff45b7708528d5ccab4
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ampoule_Bulbe_Verre
+    second: {fileID: 3537113368260753429, guid: 8c8441d8a0a5d204aa85d7ac35ea21aa, type: 3}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
+    materialName: 2
+    materialSearch: 0
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
