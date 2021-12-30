@@ -3,11 +3,96 @@ guid: 7564a69c878bd5e428674136a6c29d78
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Decorative_set_001_Wood
+    second: {fileID: 2100000, guid: 9bba44ad2dc4ee5429a9a7123af92ca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Candle
+    second: {fileID: 2100000, guid: b41595d90d962b14d8442b3d63027271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Cnot
+    second: {fileID: 2100000, guid: b665ae7b1b1f0ae4e87dc0dddddeeeed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Fire
+    second: {fileID: 2100000, guid: ea2cfeadc3ca6f2469fb322332a7d298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Flower1
+    second: {fileID: 2100000, guid: 3ec00d420fa231f45b88b376292eeb8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Flower2
+    second: {fileID: 2100000, guid: 95e324bc10580854f88a026d24f3b0ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Flower3
+    second: {fileID: 2100000, guid: a730093935a6ed04381679472ac7ab4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Glass
+    second: {fileID: 2100000, guid: af13618f68f97304aa457e352c44d1ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Glass2
+    second: {fileID: 2100000, guid: 7178028ba83260845ab0208bd212aa95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Glass3
+    second: {fileID: 2100000, guid: 11f9f1947f1c75a4182c1d364d5a6d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Gold
+    second: {fileID: 2100000, guid: d62cbcbba53279f4e96fbaf113390fc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Image
+    second: {fileID: 2100000, guid: 0b836543252ccb24c9774b18eb0e32eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Paper
+    second: {fileID: 2100000, guid: d07f53b41e5ffea44949ba96a1f0d680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Plastic
+    second: {fileID: 2100000, guid: 18850ce027458fa44bdfa1f6a50ed9c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_001_Water
+    second: {fileID: 2100000, guid: f9851655b067f3342ae80371c6468ed0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Decorative_set_003
+    second: {fileID: 2100000, guid: 92cf0d66fe6f4034286c2f97850eacd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray vray Decorative_set_001_Image2
+    second: {fileID: 2100000, guid: 010d81c227743dd4cab6eb6d6415a47e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
-    materialSearch: 1
+    materialSearch: 0
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4

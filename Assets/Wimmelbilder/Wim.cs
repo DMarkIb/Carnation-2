@@ -65,7 +65,7 @@ public class Wim : MonoBehaviour
             //VOICELINE
 
             //Vorher spielen, wenn alles erledigt ist "Fertig" auf true stellen 
-            //Fertig = true;
+            Fertig = true;
 
             if (Fertig)
             {
