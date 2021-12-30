@@ -15,12 +15,14 @@ public class Spielfigur : MonoBehaviour
     //float clickdelay = 1f;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.speed = 1f;
         //agent.destination = new Vector3(0, 0, 0);
+
     }
 
     void extraRotation()

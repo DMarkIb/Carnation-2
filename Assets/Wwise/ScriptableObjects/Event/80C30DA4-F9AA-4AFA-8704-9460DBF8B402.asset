@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66655e4e4ca5226458b1780ad67f2c7b, type: 3}
-  m_Name: 3B973AB4-C364-4683-9617-ABFA93954227
+  m_Name: 80C30DA4-F9AA-4AFA-8704-9460DBF8B402
   m_EditorClassIdentifier: 
-  objectName: Test
-  id: 3157003241
-  guid: 3B973AB4-C364-4683-9617-ABFA93954227
+  objectName: Interaction
+  id: 3900887599
+  guid: 80C30DA4-F9AA-4AFA-8704-9460DBF8B402

@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main_Soundbank" ID="{8FCDBD9C-39CC-4339-ABB4-3B0C977FA6E3}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Test" ID="{3B973AB4-C364-4683-9617-ABFA93954227}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction" ID="{80C30DA4-F9AA-4AFA-8704-9460DBF8B402}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="InBewegung" ID="{A3CA8539-BD90-4BBC-9203-FE80E0345F2C}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

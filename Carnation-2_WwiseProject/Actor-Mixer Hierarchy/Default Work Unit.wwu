@@ -80,7 +80,10 @@
 						</Folder>
 						<Folder Name="Knife" ID="{7F0D9D4D-4A1A-4B52-B4A2-D002CCA7D957}" ShortID="339515085">
 							<ChildrenList>
-								<Sound Name="Knife__My_last_bit_of_control_over_my_life" ID="{B2769354-F99C-4833-8995-22996A7700F5}" ShortID="126315685">
+								<RandomSequenceContainer Name="Knife_Voicelines" ID="{2D918132-4D15-47DD-BB4F-C84887107C08}" ShortID="862841314">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
@@ -90,65 +93,78 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Knife__My_last_bit_of_control_over_my_life" ID="{3EB5FBD3-3039-4B8E-8101-2F7F6D802D2F}">
-											<Language>SFX</Language>
-											<AudioFile>Voicelines\Knife__My_last_bit_of_control_over_my_life.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="816194724"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Knife__My_last_bit_of_control_over_my_life" ID="{B2769354-F99C-4833-8995-22996A7700F5}" ShortID="126315685">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Knife__My_last_bit_of_control_over_my_life" ID="{3EB5FBD3-3039-4B8E-8101-2F7F6D802D2F}">
+													<Language>SFX</Language>
+													<AudioFile>Voicelines\Knife__My_last_bit_of_control_over_my_life.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816194724"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Knife__My_last_bit_of_control_over_my_life" ID="{3EB5FBD3-3039-4B8E-8101-2F7F6D802D2F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Knife__My_last_resort" ID="{EB91B061-6939-4EF9-B9D0-DDBFAD41DF2E}" ShortID="504178029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Knife__My_last_resort" ID="{5DEB14B8-3C46-4A3D-9E4D-DD9981B0E9E1}">
+													<Language>SFX</Language>
+													<AudioFile>Voicelines\Knife__My_last_resort.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="13483053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Knife__My_last_resort" ID="{5DEB14B8-3C46-4A3D-9E4D-DD9981B0E9E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Knife__Would_be_better_for_everybody" ID="{9152F0A3-BB47-4B84-BFFF-3FF51BC80486}" ShortID="834114251">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Knife__Would_be_better_for_everybody" ID="{786F947D-BBD2-4477-B7D4-3434568E9D6B}">
+													<Language>SFX</Language>
+													<AudioFile>Voicelines\Knife__Would_be_better_for_everybody.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="865744582"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Knife__Would_be_better_for_everybody" ID="{786F947D-BBD2-4477-B7D4-3434568E9D6B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Knife__My_last_bit_of_control_over_my_life" ID="{3EB5FBD3-3039-4B8E-8101-2F7F6D802D2F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Knife__My_last_resort" ID="{EB91B061-6939-4EF9-B9D0-DDBFAD41DF2E}" ShortID="504178029">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Knife__My_last_resort" ID="{5DEB14B8-3C46-4A3D-9E4D-DD9981B0E9E1}">
-											<Language>SFX</Language>
-											<AudioFile>Voicelines\Knife__My_last_resort.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="13483053"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Knife__My_last_resort" ID="{5DEB14B8-3C46-4A3D-9E4D-DD9981B0E9E1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Knife__Would_be_better_for_everybody" ID="{9152F0A3-BB47-4B84-BFFF-3FF51BC80486}" ShortID="834114251">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Knife__Would_be_better_for_everybody" ID="{786F947D-BBD2-4477-B7D4-3434568E9D6B}">
-											<Language>SFX</Language>
-											<AudioFile>Voicelines\Knife__Would_be_better_for_everybody.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="865744582"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Knife__Would_be_better_for_everybody" ID="{786F947D-BBD2-4477-B7D4-3434568E9D6B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Mug" ID="{B81CF842-0BD7-4B96-97FE-6FFD84144CE6}" ShortID="75941355">
