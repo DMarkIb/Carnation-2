@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	426932622	InBewegung			\Default Work Unit\InBewegung	
+	3900887599	Interaction			\Default Work Unit\Interaction	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13483053	Knife__My_last_resort	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Voicelines\Knife__My_last_resort_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Knife\Knife_Voicelines\Knife__My_last_resort		297388
+	816194724	Knife__My_last_bit_of_control_over_my_life	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Voicelines\Knife__My_last_bit_of_control_over_my_life_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Knife\Knife_Voicelines\Knife__My_last_bit_of_control_over_my_life		481860
+	865744582	Knife__Would_be_better_for_everybody	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Voicelines\Knife__Would_be_better_for_everybody_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Knife\Knife_Voicelines\Knife__Would_be_better_for_everybody		356068
+

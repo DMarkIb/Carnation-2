@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2228651116" Language="SFX" Hash="1956377232">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="426932622" Name="InBewegung" ObjectPath="\Events\Default Work Unit\InBewegung" DurationType="OneShot" DurationMin="2.731270" DurationMax="2.731270">
+					<IncludedMemoryFiles>
+						<File Id="816194724" Language="SFX">
+							<ShortName>Voicelines\Knife__My_last_bit_of_control_over_my_life.wav</ShortName>
+							<Path>SFX\Voicelines\Knife__My_last_bit_of_control_over_my_life_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3900887599" Name="Interaction" ObjectPath="\Events\Default Work Unit\Interaction" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<IncludedMemoryFiles>
+						<File Id="13483053" Language="SFX">
+							<ShortName>Voicelines\Knife__My_last_resort.wav</ShortName>
+							<Path>SFX\Voicelines\Knife__My_last_resort_10C4C929.wem</Path>
+						</File>
+						<File Id="816194724" Language="SFX">
+							<ShortName>Voicelines\Knife__My_last_bit_of_control_over_my_life.wav</ShortName>
+							<Path>SFX\Voicelines\Knife__My_last_bit_of_control_over_my_life_10C4C929.wem</Path>
+						</File>
+						<File Id="865744582" Language="SFX">
+							<ShortName>Voicelines\Knife__Would_be_better_for_everybody.wav</ShortName>
+							<Path>SFX\Voicelines\Knife__Would_be_better_for_everybody_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

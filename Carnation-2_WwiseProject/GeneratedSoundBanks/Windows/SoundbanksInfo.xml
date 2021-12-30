@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3998472677">
+		<SoundBank Id="2228651116" Language="SFX" Hash="793401930">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -85,19 +85,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3900887599" Name="Interaction" ObjectPath="\Events\Default Work Unit\Interaction" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="3900887599" Name="Interaction" ObjectPath="\Events\Default Work Unit\Interaction" DurationType="OneShot" DurationMin="1.685510" DurationMax="1.685510">
 					<IncludedMemoryFiles>
 						<File Id="13483053" Language="SFX">
 							<ShortName>Voicelines\Knife__My_last_resort.wav</ShortName>
 							<Path>SFX\Voicelines\Knife__My_last_resort_10C4C929.wem</Path>
-						</File>
-						<File Id="816194724" Language="SFX">
-							<ShortName>Voicelines\Knife__My_last_bit_of_control_over_my_life.wav</ShortName>
-							<Path>SFX\Voicelines\Knife__My_last_bit_of_control_over_my_life_10C4C929.wem</Path>
-						</File>
-						<File Id="865744582" Language="SFX">
-							<ShortName>Voicelines\Knife__Would_be_better_for_everybody.wav</ShortName>
-							<Path>SFX\Voicelines\Knife__Would_be_better_for_everybody_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

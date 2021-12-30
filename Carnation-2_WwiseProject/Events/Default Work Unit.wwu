@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Event Name="InBewegung" ID="{A3CA8539-BD90-4BBC-9203-FE80E0345F2C}">
 					<ChildrenList>
-						<Action Name="" ID="{B98D0FB8-D627-4349-B174-953840329A53}" ShortID="364670539">
+						<Action Name="" ID="{74D31D43-AB93-44A9-9028-DBED961CB2A0}" ShortID="677664409">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="schritte" ID="{6181095B-AB0F-4926-B8A9-BC7178EAFFF8}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
@@ -14,12 +14,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Interaction" ID="{80C30DA4-F9AA-4AFA-8704-9460DBF8B402}">
+				<Event Name="Interaction" ID="{26FFD1CB-2B54-4AEA-BAB1-7DA4E634F97A}">
 					<ChildrenList>
-						<Action Name="" ID="{D41C6B49-38E1-47B6-8967-E914E38DB24B}" ShortID="1059753169">
+						<Action Name="" ID="{CC6DE15B-547F-462E-BB52-E0DDC4D7AF77}" ShortID="436533547">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Knife_Voicelines" ID="{2D918132-4D15-47DD-BB4F-C84887107C08}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+									<ObjectRef Name="Knife__My_last_resort" ID="{3A53BB37-F5BD-439F-95C6-7D0D2A99FBE1}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
