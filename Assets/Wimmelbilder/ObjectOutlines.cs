@@ -7,7 +7,6 @@ public class ObjectOutlines : MonoBehaviour
     bool Outliness = false;
     public Camera cam1;
 
-
     // Start is called before the first frame update
     public void Start()
     {
@@ -57,6 +56,29 @@ public class ObjectOutlines : MonoBehaviour
             else if (hit.collider.CompareTag("Notebook"))
             {
                 Debug.Log("U got read");
+                //VOICELINE
+            }
+        }
+    }
+
+    void VoiceLines()
+    {
+        RaycastHit hit;
+        Ray ray = cam1.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit))
+        {
+            if (hit.collider.CompareTag("Boden"))
+            {
+                Debug.Log("U got Bodend");
+            }
+            else if (hit.collider.CompareTag("Messer"))
+            {
+                Debug.Log("U got Messered");
+                //VOICELINE
+            }
+            else if (hit.collider.CompareTag("Pillen"))
+            {
+                Debug.Log("U got Pills");
                 //VOICELINE
             }
         }
