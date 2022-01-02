@@ -5,12 +5,12 @@ using UnityEngine;
 public class PostWwiseEvent : MonoBehaviour
 {
     public AK.Wwise.Event Schritt;
-    public AK.Wwise.Event Voice_Knife;
+
     // Start is called before the first frame update
     void Start()
     {
-        Voice_Knife.Post(gameObject);
-        Debug.Log("Voiceline");
+        //Voice_Knife.Post(gameObject);
+
     }
 
     public void SchrittSound()
@@ -18,8 +18,5 @@ public class PostWwiseEvent : MonoBehaviour
         Schritt.Post(gameObject);
     }
 
-    public void Voiceline_Knife()
-    {
-        Voice_Knife.Post(gameObject);
-    }
+
 }

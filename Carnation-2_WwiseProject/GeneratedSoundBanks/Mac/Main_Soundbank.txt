@@ -3,7 +3,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	3900887599	Interaction			\Default Work Unit\Interaction	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5440349	Schritt_-09	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-09		50038
 	13483053	Knife__My_last_resort	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Voicelines\Knife__My_last_resort_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Knife\Knife_Voicelines\Knife__My_last_resort		297388
+	201573695	Schritt_-02	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-02		50038
+	245391078	Schritt_-03	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-03		54322
+	313118413	Schritt_-12	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-12		55750
+	397960147	Schritt_-13	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-13		55750
+	415056179	Schritt_-01	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-01		58606
+	554346512	Schritt_	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt__10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_		44328
+	575569126	Schritt_-14	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-14		58606
+	583599558	Schritt_-11	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-11		64316
+	602452887	Schritt_-04	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-04		54322
+	708347681	Schritt_-10	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-10		64318
+	800542077	Schritt_-07	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-07		47184
 	816194724	Knife__My_last_bit_of_control_over_my_life	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Voicelines\Knife__My_last_bit_of_control_over_my_life_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Knife\Knife_Voicelines\Knife__My_last_bit_of_control_over_my_life		481860
 	865744582	Knife__Would_be_better_for_everybody	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Voicelines\Knife__Would_be_better_for_everybody_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Knife\Knife_Voicelines\Knife__Would_be_better_for_everybody		356068
+	1018309644	Schritt_-06	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-06		52894
+	1053125158	Schritt_-05	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-05		57178
+	1058032514	Schritt_-08	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Mac\SFX\Schritte\Schritt_-08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-08		52894
 

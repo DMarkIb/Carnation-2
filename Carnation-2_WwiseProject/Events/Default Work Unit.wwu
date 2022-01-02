@@ -16,10 +16,10 @@
 				</Event>
 				<Event Name="Interaction" ID="{26FFD1CB-2B54-4AEA-BAB1-7DA4E634F97A}">
 					<ChildrenList>
-						<Action Name="" ID="{CC6DE15B-547F-462E-BB52-E0DDC4D7AF77}" ShortID="436533547">
+						<Action Name="" ID="{8B56C8F8-18E5-4446-B81A-786EE33166D8}" ShortID="911301878">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Knife__My_last_resort" ID="{3A53BB37-F5BD-439F-95C6-7D0D2A99FBE1}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+									<ObjectRef Name="Knife_Voicelines" ID="{831E334D-96F6-45E4-A905-ED29D5B0AFFB}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

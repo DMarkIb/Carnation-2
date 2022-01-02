@@ -1016,10 +1016,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 20c8d712dd24bcc4ba7964ad5ffc66f5, type: 2}
-  Voice_Knife:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
 --- !u!114 &492735795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4096,10 +4092,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 20c8d712dd24bcc4ba7964ad5ffc66f5, type: 2}
-  Voice_Knife:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ad4000a8fbd9db84f93e06e93cdc2175, type: 2}
 --- !u!1001 &1484112383
 PrefabInstance:
   m_ObjectHideFlags: 0

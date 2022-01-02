@@ -402,36 +402,876 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Knife__My_last_resort" ID="{3A53BB37-F5BD-439F-95C6-7D0D2A99FBE1}" ShortID="1059699026">
-					<PropertyList>
-						<Property Name="OutputBusVolume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Voicelines" ID="{4DC54F8F-6E60-4216-9916-DC0315D65AE2}" ShortID="523719095">
 					<ChildrenList>
-						<AudioFileSource Name="Knife__My_last_resort" ID="{1C9CB552-89E0-4695-B6BE-B7F5B24ED95F}">
-							<Language>SFX</Language>
-							<AudioFile>Voicelines\Knife__My_last_resort.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="13483053"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Folder Name="Fridge" ID="{EC23E475-E555-429B-A25D-BB9FAFAAE571}" ShortID="980946040">
+							<ChildrenList>
+								<Sound Name="Fridge__Half_of_this_is_rotten" ID="{4A2B0251-D752-4DBA-92F7-E35FDEA00B98}" ShortID="925120398">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fridge__Half_of_this_is_rotten" ID="{2A2FAA88-4481-4554-A0CE-27E8C87BEE6C}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Fridge__Half_of_this_is_rotten.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="277562620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fridge__Half_of_this_is_rotten" ID="{2A2FAA88-4481-4554-A0CE-27E8C87BEE6C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fridge__Maybe_there_is_something_left_to_eat" ID="{2CEADF63-676F-4925-80BA-2866BA20B061}" ShortID="443565365">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fridge__Maybe_there_is_something_left_to_eat" ID="{28AE2DE4-9BA0-4F5B-8864-76EFF4ABB29D}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Fridge__Maybe_there_is_something_left_to_eat.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846935363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fridge__Maybe_there_is_something_left_to_eat" ID="{28AE2DE4-9BA0-4F5B-8864-76EFF4ABB29D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fridge__You_are_cold_inside_like_me" ID="{1FF7AC3C-E7FE-4BB2-9C64-299190C0F785}" ShortID="1020073923">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fridge__You_are_cold_inside_like_me" ID="{5B116269-FA8E-4912-9EB4-7D497F2C5145}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Fridge__You_are_cold_inside_like_me.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="315624620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fridge__You_are_cold_inside_like_me" ID="{5B116269-FA8E-4912-9EB4-7D497F2C5145}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Guitar" ID="{BC7501F2-C0AE-4DB5-969D-C9EF70D09EB2}" ShortID="545570029">
+							<ChildrenList>
+								<Sound Name="Guitar__I_havent_used_this_in_ages" ID="{F4436358-C085-453C-BB9C-61688508C416}" ShortID="752693258">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guitar__I_havent_used_this_in_ages" ID="{7F12033D-5B25-4367-B3C0-9F0862FD7C77}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Guitar__I_havent_used_this_in_ages.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92361229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guitar__I_havent_used_this_in_ages" ID="{7F12033D-5B25-4367-B3C0-9F0862FD7C77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guitar__Just_like_me_a_waste_of_space" ID="{DD79161E-14A6-4EB6-987E-EF80F966FF10}" ShortID="294061234">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guitar__Just_like_me_a_waste_of_space" ID="{4C2D17B0-AD27-4D41-8598-77018392D2A3}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Guitar__Just_like_me_a_waste_of_space.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="735341451"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guitar__Just_like_me_a_waste_of_space" ID="{4C2D17B0-AD27-4D41-8598-77018392D2A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guitar__Maybe_I_should_sell_this" ID="{E5FA25CE-CA04-4ABC-AF17-BE676F3A6EB0}" ShortID="425995481">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guitar__Maybe_I_should_sell_this" ID="{CDE9B700-4A66-4F24-B023-AF79A0C88AEA}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Guitar__Maybe_I_should_sell_this.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="825007206"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Guitar__Maybe_I_should_sell_this" ID="{CDE9B700-4A66-4F24-B023-AF79A0C88AEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Knife" ID="{297FE13A-0FA7-4E55-808C-2845D352383B}" ShortID="347899681">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Knife_Voicelines" ID="{831E334D-96F6-45E4-A905-ED29D5B0AFFB}" ShortID="1054673483">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Knife__My_last_resort" ID="{3A53BB37-F5BD-439F-95C6-7D0D2A99FBE1}" ShortID="1059699026">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Knife__My_last_resort" ID="{1C9CB552-89E0-4695-B6BE-B7F5B24ED95F}">
+													<Language>SFX</Language>
+													<AudioFile>Voicelines\Knife__My_last_resort.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="13483053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Knife__My_last_resort" ID="{1C9CB552-89E0-4695-B6BE-B7F5B24ED95F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Knife__Would_be_better_for_everybody" ID="{1DDDDFDC-7656-4595-B523-FEA5A95A8294}" ShortID="434818822">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Knife__Would_be_better_for_everybody" ID="{8AFB21BB-2F3B-46A2-8BC5-CB38E2819A55}">
+													<Language>SFX</Language>
+													<AudioFile>Voicelines\Knife__Would_be_better_for_everybody.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="865744582"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Knife__Would_be_better_for_everybody" ID="{8AFB21BB-2F3B-46A2-8BC5-CB38E2819A55}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Knife__My_last_bit_of_control_over_my_life" ID="{714E6FDE-3145-4952-9859-F15737D0ED4B}" ShortID="50406749">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Knife__My_last_bit_of_control_over_my_life" ID="{2920EFA8-2A71-4C41-B629-D6CB11E53643}">
+													<Language>SFX</Language>
+													<AudioFile>Voicelines\Knife__My_last_bit_of_control_over_my_life.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816194724"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Knife__My_last_bit_of_control_over_my_life" ID="{2920EFA8-2A71-4C41-B629-D6CB11E53643}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Mug" ID="{9F26736C-FF88-4076-9690-9C31196D9FEF}" ShortID="485504720">
+							<ChildrenList>
+								<Sound Name="Mug__All_empty_just_like_me" ID="{670BF23F-FC52-4035-BE11-B1ACE023E79B}" ShortID="137086767">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mug__All_empty_just_like_me" ID="{C6F01BD0-4B57-4A0C-B0FF-294F932363D4}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Mug__All_empty_just_like_me.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="736687876"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mug__All_empty_just_like_me" ID="{C6F01BD0-4B57-4A0C-B0FF-294F932363D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mug__When_will_I_finally_get_something_done" ID="{2C96E6DF-484B-47AB-8C55-8E8B8BAA11C5}" ShortID="815899365">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mug__When_will_I_finally_get_something_done" ID="{AC5D44BE-4050-49F4-9C6E-DE9E40E06BE4}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Mug__When_will_I_finally_get_something_done.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002670160"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mug__When_will_I_finally_get_something_done" ID="{AC5D44BE-4050-49F4-9C6E-DE9E40E06BE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mug__I_should_really_drink_less_Coffee" ID="{6EA7D265-A14D-413C-832C-B1A6AEC73D44}" ShortID="543437065">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mug__I_should_really_drink_less_Coffee" ID="{8B204FE0-4DF6-4EF9-9974-898740B32F86}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Mug__I_should_really_drink_less_Coffee.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="543042715"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mug__I_should_really_drink_less_Coffee" ID="{8B204FE0-4DF6-4EF9-9974-898740B32F86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mug__I_dont_have_the_strength_to_clean_all_of_this" ID="{C3958E6A-797B-44F6-8BE0-48062B597358}" ShortID="822640585">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mug__I_dont_have_the_strength_to_clean_all_of_this" ID="{BE4D5361-76C2-4E69-98D7-79DE87385224}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Mug__I_dont_have_the_strength_to_clean_all_of_this.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="468141339"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mug__I_dont_have_the_strength_to_clean_all_of_this" ID="{BE4D5361-76C2-4E69-98D7-79DE87385224}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Newspaper_CCiM" ID="{F6664AA5-443F-4251-88A2-D1D0D3220564}" ShortID="943497871">
+							<ChildrenList>
+								<Sound Name="Newspaer_CCiM__At_least_I_didnt_kill_him_too" ID="{898C9AF5-1BC0-4A6C-A47A-22D550123C45}" ShortID="488585587">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Newspaer_CCiM__At_least_I_didnt_kill_him_too" ID="{5F9CB402-FF6D-46CB-ADB6-694DF4749E46}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Newspaer_CCiM__At_least_I_didnt_kill_him_too.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1033449725"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Newspaer_CCiM__At_least_I_didnt_kill_him_too" ID="{5F9CB402-FF6D-46CB-ADB6-694DF4749E46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front" ID="{FC6FA5B5-101A-4382-BA9E-9BC96D2303CF}" ShortID="452828942">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front" ID="{A9A763DE-EC32-4B99-9C82-4214ED307DF2}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568626608"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front" ID="{A9A763DE-EC32-4B99-9C82-4214ED307DF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Newspaper_CCiM__The_biker_was_fine" ID="{A6174A0C-1F33-4A6F-BDC8-E97D1B2D31C6}" ShortID="461287633">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Newspaper_CCiM__The_biker_was_fine" ID="{7352C06C-93B0-479C-B0DE-F5FC17DB4EE6}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Newspaper_CCiM__The_biker_was_fine.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="246172809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Newspaper_CCiM__The_biker_was_fine" ID="{7352C06C-93B0-479C-B0DE-F5FC17DB4EE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Newspaper_TCC" ID="{2FB043C7-B18F-4881-A0D7-E06144F1460A}" ShortID="844201306">
+							<ChildrenList>
+								<Sound Name="Newspaper_TCC__The_accident_it_was_my_fault" ID="{CD6E9610-CD81-4BBB-8E7E-EB000C5D6814}" ShortID="229211184">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Newspaper_TCC__The_accident_it_was_my_fault" ID="{03614DBF-23B2-479B-B17D-65BB48035FBD}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Newspaper_TCC__The_accident_it_was_my_fault.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="183415807"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Newspaper_TCC__The_accident_it_was_my_fault" ID="{03614DBF-23B2-479B-B17D-65BB48035FBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Newspaper_TCC__It_should_have_been_me_instead" ID="{6083CEBC-6D7B-462B-A5B1-8C07764DD807}" ShortID="311140169">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Newspaper_TCC__It_should_have_been_me_instead" ID="{D36600EF-BAFB-4AC1-84C1-8F317BF0EFF7}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Newspaper_TCC__It_should_have_been_me_instead.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124993505"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Newspaper_TCC__It_should_have_been_me_instead" ID="{D36600EF-BAFB-4AC1-84C1-8F317BF0EFF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Newspaper_TCC__Why_did_I_kill_her" ID="{BFC38A03-CC28-4BE5-B5A4-3BAFE9E09D4D}" ShortID="795571670">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Newspaper_TCC__Why_did_I_kill_her" ID="{1D715597-593D-448B-9C7E-3322C8B6844E}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Newspaper_TCC__Why_did_I_kill_her.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="303911190"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Newspaper_TCC__Why_did_I_kill_her" ID="{1D715597-593D-448B-9C7E-3322C8B6844E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Picture_Family" ID="{0714D9E8-9CA4-4D01-A1E3-540FE2D4CE60}" ShortID="413824901">
+							<ChildrenList>
+								<Sound Name="Picture_ Family__I_dont_like_remembering_those_days" ID="{F4E83CA0-DC32-4B73-8050-155616E7400D}" ShortID="637828889">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_ Family__I_dont_like_remembering_those_days" ID="{16422F13-3A1B-43C2-8970-A7D90D3DAAAB}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_ Family__I_dont_like_remembering_those_days.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492429495"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_ Family__I_dont_like_remembering_those_days" ID="{16422F13-3A1B-43C2-8970-A7D90D3DAAAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Picture_Family__the_divorce_wasnt_as_bad" ID="{52E7B002-90F9-4EA0-AFE8-967C4837CC88}" ShortID="596468056">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Family__the_divorce_wasnt_as_bad" ID="{BFAD1FE3-B0E5-46C0-9AED-898FCB298EED}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Family__the_divorce_wasnt_as_bad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492172539"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Family__the_divorce_wasnt_as_bad" ID="{BFAD1FE3-B0E5-46C0-9AED-898FCB298EED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Picture_Family__Our_last_picture_together" ID="{3BBA24B8-E339-41EA-8135-01CC105BED45}" ShortID="901957876">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Family__Our_last_picture_together" ID="{DB05619E-6ED0-4C4A-8C65-80D93C9A8210}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Family__Our_last_picture_together.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="702182327"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Family__Our_last_picture_together" ID="{DB05619E-6ED0-4C4A-8C65-80D93C9A8210}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Picture_Daughter" ID="{56E4F68B-313B-4CB0-95E2-AE4B58ECB543}" ShortID="825533757">
+							<ChildrenList>
+								<Sound Name="Picture_Daughter__I_loved_her_so_much" ID="{F7E4FB6F-8345-4F59-BC82-09CB4E2BCFB9}" ShortID="759447408">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Daughter__I_loved_her_so_much" ID="{01118162-7937-4668-949B-834DD30E8840}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Daughter__I_loved_her_so_much.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1053732403"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Daughter__I_loved_her_so_much" ID="{01118162-7937-4668-949B-834DD30E8840}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Picture_Daughter__It_was_all_my_fault" ID="{DB4974F5-74AE-47E2-A086-86E6865E9756}" ShortID="308393003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Daughter__It_was_all_my_fault" ID="{6EF0534D-1A9E-463E-B8A5-2C55CA6ED192}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Daughter__It_was_all_my_fault.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="563516279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Daughter__It_was_all_my_fault" ID="{6EF0534D-1A9E-463E-B8A5-2C55CA6ED192}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Picture_Daughter__My_dear_Daughter" ID="{D5919F59-76E6-4B23-AEFE-425BE9FAD78C}" ShortID="519464832">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Daughter__My_dear_Daughter" ID="{90A7E402-D80F-4C58-A49A-B1F03FF0AA6B}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Daughter__My_dear_Daughter.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="519024496"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Daughter__My_dear_Daughter" ID="{90A7E402-D80F-4C58-A49A-B1F03FF0AA6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Picture_Shelf" ID="{624227BE-5CF3-46EE-BA7C-5F5BB5107589}" ShortID="676234736">
+							<ChildrenList>
+								<Sound Name="Picture_Shelf__I_dont_want_her_to_see_me_like_this" ID="{812CEB65-C6B9-47CF-B1AF-004A4BE84902}" ShortID="766739050">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Shelf__I_dont_want_her_to_see_me_like_this" ID="{7C208FE2-8925-4445-AD81-D5913C70756F}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Shelf__I_dont_want_her_to_see_me_like_this.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792337493"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Shelf__I_dont_want_her_to_see_me_like_this" ID="{7C208FE2-8925-4445-AD81-D5913C70756F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Picture_Shelf__Everything_was_better_back_then" ID="{A49024DA-215D-4C22-8E95-F5B658D92CC9}" ShortID="639262986">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Shelf__Everything_was_better_back_then" ID="{D50F0E4B-0845-4F94-B3E4-FB4DF12F1CFC}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Shelf__Everything_was_better_back_then.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="740333452"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Shelf__Everything_was_better_back_then" ID="{D50F0E4B-0845-4F94-B3E4-FB4DF12F1CFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Picture_Shelf__Back_when_she_was_still_here" ID="{3976000D-0EE1-4C48-BD93-0B40BD5077A4}" ShortID="208886600">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Picture_Shelf__Back_when_she_was_still_here" ID="{7AA49BDF-6989-4260-A9B3-C8B8F65B23B3}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Picture_Shelf__Back_when_she_was_still_here.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="269815776"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Picture_Shelf__Back_when_she_was_still_here" ID="{7AA49BDF-6989-4260-A9B3-C8B8F65B23B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pills" ID="{17CDF04E-8F57-46B5-9B0E-8682897FD4F6}" ShortID="229775612">
+							<ChildrenList>
+								<Sound Name="Pills__I_forgot_to_take_them_again" ID="{5F222087-6C48-427D-936D-5B566C5C4DFD}" ShortID="543849548">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pills__I_forgot_to_take_them_again" ID="{5AB42E1F-3264-4352-9E52-EF7A7CBCF5B0}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Pills__I_forgot_to_take_them_again.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="82378073"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Pills__I_forgot_to_take_them_again" ID="{5AB42E1F-3264-4352-9E52-EF7A7CBCF5B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pills__It_just_doesnt_matter_anymore" ID="{782C8828-209A-4F3A-9D12-97500006F0F3}" ShortID="983471114">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pills__It_just_doesnt_matter_anymore" ID="{8DE7D005-1097-4648-B944-8009DB76B9FF}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Pills__It_just_doesnt_matter_anymore.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="839780220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Pills__It_just_doesnt_matter_anymore" ID="{8DE7D005-1097-4648-B944-8009DB76B9FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pills__Not_as_if_these_work_anyway" ID="{8336AC86-328F-455A-8848-D0F2BF6C61EB}" ShortID="755366683">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pills__Not_as_if_these_work_anyway" ID="{7A75654B-71B4-4526-A056-52236BC69927}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Pills__Not_as_if_these_work_anyway.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="182646678"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Pills__Not_as_if_these_work_anyway" ID="{7A75654B-71B4-4526-A056-52236BC69927}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Plant" ID="{A47E85E5-96C8-43FB-AE3B-6931751763DE}" ShortID="989698816">
+							<ChildrenList>
+								<Sound Name="Plant__How_come_you_havent_died_yet" ID="{8B998FE6-F649-44CF-B51E-57F83D7E9A32}" ShortID="107108798">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plant__How_come_you_havent_died_yet" ID="{3C0693C8-4E39-4512-9BB9-06B90E214BE6}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Plant__How_come_you_havent_died_yet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329844796"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plant__How_come_you_havent_died_yet" ID="{3C0693C8-4E39-4512-9BB9-06B90E214BE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plant__When_was_the_last_time_i_watered_you" ID="{D4F8CC86-1654-4DB1-8A5C-FD300DD4D37C}" ShortID="676726943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plant__When_was_the_last_time_i_watered_you" ID="{4FCF2147-BB06-48F9-AF35-B69793E677B1}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Plant__When_was_the_last_time_i_watered_you.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="926755629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plant__When_was_the_last_time_i_watered_you" ID="{4FCF2147-BB06-48F9-AF35-B69793E677B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plant__I_bet_you_are_just_waiting_to_die" ID="{721F2CC4-9F0B-4EFA-B1B6-07EA410A179B}" ShortID="561717285">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plant__I_bet_you_are_just_waiting_to_die" ID="{8D5A0204-7F78-41D3-B73C-89D9D35C53A7}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Plant__I_bet_you_are_just_waiting_to_die.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287221544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plant__I_bet_you_are_just_waiting_to_die" ID="{8D5A0204-7F78-41D3-B73C-89D9D35C53A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plant__Why_are_you_even_still_alive" ID="{CFED7CEC-E465-4811-9D92-D2EA086FE789}" ShortID="500737483">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plant__Why_are_you_even_still_alive" ID="{7B0CB5C0-E73E-4245-A5D3-A435933361F9}">
+											<Language>SFX</Language>
+											<AudioFile>Voicelines\Plant__Why_are_you_even_still_alive.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="843884406"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Plant__Why_are_you_even_still_alive" ID="{7B0CB5C0-E73E-4245-A5D3-A435933361F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Knife__My_last_resort" ID="{1C9CB552-89E0-4695-B6BE-B7F5B24ED95F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
