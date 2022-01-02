@@ -711,6 +711,57 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4341055625389865111, guid: b6e60b9ceae2bae4db9942e4448a001f, type: 3}
+--- !u!114 &431696230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431696223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eac94580be9eea4b86d2239a88f25ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 9864aaa1
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ad4000a8fbd9db84f93e06e93cdc2175, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &431696231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431696223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3180f569a998ac04287af29557821b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &459259573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -965,10 +1016,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 20c8d712dd24bcc4ba7964ad5ffc66f5, type: 2}
-  Voice:
+  Voice_Knife:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d0993fd7252a48244819877e01e310c9, type: 2}
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &492735795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4045,10 +4096,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 20c8d712dd24bcc4ba7964ad5ffc66f5, type: 2}
-  Voice:
+  Voice_Knife:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 19398c5aac9242c4aa117ca885dc7609, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: ad4000a8fbd9db84f93e06e93cdc2175, type: 2}
 --- !u!1001 &1484112383
 PrefabInstance:
   m_ObjectHideFlags: 0
