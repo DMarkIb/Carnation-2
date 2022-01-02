@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectOutlines : MonoBehaviour
+public class Doors : MonoBehaviour
 {
     bool Outliness = false;
-    public Camera cam1;
+    public Camera main;
 
     // Start is called before the first frame update
     public void Start()
@@ -16,7 +16,7 @@ public class ObjectOutlines : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void OnMouseEnter()
@@ -36,27 +36,12 @@ public class ObjectOutlines : MonoBehaviour
     public void OnMouseDown()
     {
         RaycastHit hit;
-        Ray ray = cam1.ScreenPointToRay(Input.mousePosition);
+        Ray ray = main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider.CompareTag("Boden"))
+            if (hit.collider.CompareTag("Door"))
             {
-                Debug.Log("U got Bodend");
-            }
-            else if (hit.collider.CompareTag("Messer"))
-            {
-                Debug.Log("U got Messered");
-                //VOICELINE
-            }
-            else if (hit.collider.CompareTag("Pillen"))
-            {
-                Debug.Log("U got Pills");
-                //VOICELINE
-            }
-            else if (hit.collider.CompareTag("Notebook"))
-            {
-                Debug.Log("U got read");
-                //VOICELINE
+                Debug.Log("U got Exited");
             }
         }
     }
