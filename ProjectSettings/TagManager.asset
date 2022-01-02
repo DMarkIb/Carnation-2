@@ -8,6 +8,7 @@ TagManager:
   - Messer
   - Pillen
   - Notebook
+  - Door
   layers:
   - Default
   - TransparentFX
