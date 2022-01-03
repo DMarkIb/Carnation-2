@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Doors : MonoBehaviour
+public class Tasse : MonoBehaviour
 {
     bool Outliness = false;
     public Camera main;
@@ -10,6 +10,8 @@ public class Doors : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
+        //GameObject.Find("Wim").GetComponent<Wim>().counter += 1;
+
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
@@ -41,7 +43,8 @@ public class Doors : MonoBehaviour
         {
             if (hit.collider.CompareTag("Cup"))
             {
-                Debug.Log("U got Cupped");
+                //GameObject.Find("Wim").GetComponent<Wim>().counter += 1;
+                //Debug.Log(GameObject.Find("Wim").GetComponent<Wim>().counter);
                 Destroy(gameObject);
             }
         }

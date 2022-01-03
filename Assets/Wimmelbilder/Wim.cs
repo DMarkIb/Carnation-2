@@ -16,6 +16,8 @@ public class Wim : MonoBehaviour
 
     bool Wimmelbild = false;
 
+    public int counter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,14 @@ public class Wim : MonoBehaviour
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
+
+    //MARKSANFANG
+    public void Counter()
+    {
+        counter = counter + 1;
+        Debug.Log(counter);
+    }
+    //MARKSENDE
     public void OnMouseDown()
     {
         clicked++;

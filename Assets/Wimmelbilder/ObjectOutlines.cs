@@ -58,6 +58,10 @@ public class ObjectOutlines : MonoBehaviour
                 Debug.Log("U got read");
                 //VOICELINE
             }
+            else if (hit.collider.CompareTag("Destroy"))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

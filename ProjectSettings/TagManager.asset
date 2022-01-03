@@ -9,6 +9,8 @@ TagManager:
   - Pillen
   - Notebook
   - Door
+  - Cup
+  - Destroy
   layers:
   - Default
   - TransparentFX
