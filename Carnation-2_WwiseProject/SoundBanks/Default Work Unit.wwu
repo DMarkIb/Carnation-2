@@ -5,8 +5,19 @@
 			<ChildrenList>
 				<SoundBank Name="Main_Soundbank" ID="{8FCDBD9C-39CC-4339-ABB4-3B0C977FA6E3}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Interaction_Newspaper_CCiM" ID="{A064561E-948B-419A-AF08-D6C7A8D9D356}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Newspaper_TCC" ID="{8BE926BF-6E28-4222-906C-A428322D30ED}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Picture_Shelf" ID="{F4BB5D6E-BF5A-4313-B3AC-A60E35C75C02}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Mug" ID="{C4840FD0-37A6-449B-B23D-9EF8DBC19195}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Knife" ID="{14F1E822-4B2F-44D8-9926-41BE392EAB1B}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Pills" ID="{D98F3E9C-74B2-4758-A4A0-C2BA30C78AF1}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Picture_Family" ID="{95659B26-FE3D-488C-B9BC-AC6F6EC83ABE}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Plant" ID="{400C9C71-D5CC-497F-8D08-44994CE7135F}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Picture_Daughter" ID="{BAA4ECD1-6FE1-49C1-B456-422E02209CB3}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Fridge" ID="{72BAA909-0033-4ACD-915A-BEDF172B3F86}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interaction" ID="{26FFD1CB-2B54-4AEA-BAB1-7DA4E634F97A}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="InBewegung" ID="{A3CA8539-BD90-4BBC-9203-FE80E0345F2C}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Guitar" ID="{91EBD4CF-F328-4F8E-BF7E-7A33D03785AB}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

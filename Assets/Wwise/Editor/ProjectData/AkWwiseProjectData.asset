@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: cc58c01ba4cf4c40a2e35f490a650718
     GuidInternal: 
-    m_lastTime: -8585608298994422164
+    m_lastTime: -8585608872036698121
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: fc1fcd05e757a84dbe244c1ff230d8a4
     GuidInternal: 
-    m_lastTime: -8585608299032794837
+    m_lastTime: -8585608872066068100
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9a81895de7fe6a459d20f4acddc9cd45
     GuidInternal: 
-    m_lastTime: -8585604739511893490
+    m_lastTime: -8585603864009984935
     List:
     - name: Main_Soundbank
       guid: 9cbdcd8fcc393943abb43b0c977fa6e3
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1c112586e1649a4e9a9d6be11a0526bb
     GuidInternal: 
-    m_lastTime: -8585604672951583145
+    m_lastTime: -8585603864009703679
     List:
     - name: InBewegung
       guid: 3985caa390bdbc4b9203fe80e0345f2c
@@ -130,6 +130,193 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.73127
       minDuration: 1.68551
+    - name: Interaction_Fridge
+      guid: 09a9ba723300cd4a915abedf172b3f86
+      id: 854870849
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Fridge
+        ObjectType: 3
+        guid: 09a9ba723300cd4a915abedf172b3f86
+      Path: Events\Default Work Unit\Interaction_Fridge
+      maxAttenuation: 0
+      maxDuration: 3.513923
+      minDuration: 2.828277
+    - name: Interaction_Guitar
+      guid: cfd4eb9128f38e4fbf7e7a33d03785ab
+      id: 2574017784
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Guitar
+        ObjectType: 3
+        guid: cfd4eb9128f38e4fbf7e7a33d03785ab
+      Path: Events\Default Work Unit\Interaction_Guitar
+      maxAttenuation: 0
+      maxDuration: 4.085306
+      minDuration: 2.656871
+    - name: Interaction_Knife
+      guid: 22e8f1142f4bd844992641be392eab1b
+      id: 3913799797
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Knife
+        ObjectType: 3
+        guid: 22e8f1142f4bd844992641be392eab1b
+      Path: Events\Default Work Unit\Interaction_Knife
+      maxAttenuation: 0
+      maxDuration: 2.73127
+      minDuration: 1.68551
+    - name: Interaction_Mug
+      guid: d00f84c4a6379b44b23d9ef8dbc19195
+      id: 2826267179
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Mug
+        ObjectType: 3
+        guid: d00f84c4a6379b44b23d9ef8dbc19195
+      Path: Events\Default Work Unit\Interaction_Mug
+      maxAttenuation: 0
+      maxDuration: 4.190068
+      minDuration: 2.371202
+    - name: Interaction_Newspaper_CCiM
+      guid: 1e5664a08b949a41af08d6c7a8d9d356
+      id: 233964938
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Newspaper_CCiM
+        ObjectType: 3
+        guid: 1e5664a08b949a41af08d6c7a8d9d356
+      Path: Events\Default Work Unit\Interaction_Newspaper_CCiM
+      maxAttenuation: 0
+      maxDuration: 3.75102
+      minDuration: 2.212585
+    - name: Interaction_Newspaper_TCC
+      guid: bf26e98b286e2242906ca428322d30ed
+      id: 385821004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Newspaper_TCC
+        ObjectType: 3
+        guid: bf26e98b286e2242906ca428322d30ed
+      Path: Events\Default Work Unit\Interaction_Newspaper_TCC
+      maxAttenuation: 0
+      maxDuration: 4.575873
+      minDuration: 1.485578
+    - name: Interaction_Picture_Daughter
+      guid: d1eca4bae16fc149b456422e02209cb3
+      id: 2530462639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Picture_Daughter
+        ObjectType: 3
+        guid: d1eca4bae16fc149b456422e02209cb3
+      Path: Events\Default Work Unit\Interaction_Picture_Daughter
+      maxAttenuation: 0
+      maxDuration: 3
+      minDuration: 2.474195
+    - name: Interaction_Picture_Family
+      guid: 269b65953dfe8c48b9bcac6f6ec83abe
+      id: 2849394967
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Picture_Family
+        ObjectType: 3
+        guid: 269b65953dfe8c48b9bcac6f6ec83abe
+      Path: Events\Default Work Unit\Interaction_Picture_Family
+      maxAttenuation: 0
+      maxDuration: 7
+      minDuration: 2
+    - name: Interaction_Picture_Shelf
+      guid: 6e5dbbf45abf1343b3aca60e35c75c02
+      id: 2143311869
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Picture_Shelf
+        ObjectType: 3
+        guid: 6e5dbbf45abf1343b3aca60e35c75c02
+      Path: Events\Default Work Unit\Interaction_Picture_Shelf
+      maxAttenuation: 0
+      maxDuration: 5.5
+      minDuration: 2.5
+    - name: Interaction_Pills
+      guid: 9c3e8fd9b2745847a4a0c2ba30c78af1
+      id: 3913038626
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Pills
+        ObjectType: 3
+        guid: 9c3e8fd9b2745847a4a0c2ba30c78af1
+      Path: Events\Default Work Unit\Interaction_Pills
+      maxAttenuation: 0
+      maxDuration: 2.405374
+      minDuration: 1.982041
+    - name: Interaction_Plant
+      guid: 719c0c40ccd57f498d0844994ce7135f
+      id: 1285051097
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Plant
+        ObjectType: 3
+        guid: 719c0c40ccd57f498d0844994ce7135f
+      Path: Events\Default Work Unit\Interaction_Plant
+      maxAttenuation: 0
+      maxDuration: 3.221995
+      minDuration: 2.199773
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -142,7 +329,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 159e1f1becc2ad4194d01d055ad2d056
     GuidInternal: 
-    m_lastTime: -8585608299032884867
+    m_lastTime: -8585608872066157846
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -156,7 +343,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 1d3fe487059b10479b3a610bfe70747a
     GuidInternal: 
-    m_lastTime: -8585608298994432169
+    m_lastTime: -8585608872036698121
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -170,7 +357,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 610f13b9adc16648a10dd6b9bd814bbf
     GuidInternal: 
-    m_lastTime: -8585608298994432169
+    m_lastTime: -8585608872036698121
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -184,10 +371,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 2b1d377b6e011940be34aacb564c39b2
     GuidInternal: 
-    m_lastTime: -8585608298994422164
+    m_lastTime: -8585608872036698121
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

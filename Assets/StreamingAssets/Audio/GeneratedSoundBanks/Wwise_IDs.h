@@ -15,6 +15,17 @@ namespace AK
     {
         static const AkUniqueID INBEWEGUNG = 426932622U;
         static const AkUniqueID INTERACTION = 3900887599U;
+        static const AkUniqueID INTERACTION_FRIDGE = 854870849U;
+        static const AkUniqueID INTERACTION_GUITAR = 2574017784U;
+        static const AkUniqueID INTERACTION_KNIFE = 3913799797U;
+        static const AkUniqueID INTERACTION_MUG = 2826267179U;
+        static const AkUniqueID INTERACTION_NEWSPAPER_CCIM = 233964938U;
+        static const AkUniqueID INTERACTION_NEWSPAPER_TCC = 385821004U;
+        static const AkUniqueID INTERACTION_PICTURE_DAUGHTER = 2530462639U;
+        static const AkUniqueID INTERACTION_PICTURE_FAMILY = 2849394967U;
+        static const AkUniqueID INTERACTION_PICTURE_SHELF = 2143311869U;
+        static const AkUniqueID INTERACTION_PILLS = 3913038626U;
+        static const AkUniqueID INTERACTION_PLANT = 1285051097U;
     } // namespace EVENTS
 
     namespace BANKS

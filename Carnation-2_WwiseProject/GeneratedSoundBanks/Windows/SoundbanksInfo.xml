@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="2528603913">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3813443436">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -98,6 +98,190 @@
 						<File Id="865744582" Language="SFX">
 							<ShortName>Voicelines\Knife__Would_be_better_for_everybody.wav</ShortName>
 							<Path>SFX\Voicelines\Knife__Would_be_better_for_everybody_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="854870849" Name="Interaction_Fridge" ObjectPath="\Events\Default Work Unit\Interaction_Fridge" DurationType="OneShot" DurationMin="2.828277" DurationMax="3.513923">
+					<IncludedMemoryFiles>
+						<File Id="277562620" Language="SFX">
+							<ShortName>Voicelines\Fridge__Half_of_this_is_rotten.wav</ShortName>
+							<Path>SFX\Voicelines\Fridge__Half_of_this_is_rotten_10C4C929.wem</Path>
+						</File>
+						<File Id="315624620" Language="SFX">
+							<ShortName>Voicelines\Fridge__You_are_cold_inside_like_me.wav</ShortName>
+							<Path>SFX\Voicelines\Fridge__You_are_cold_inside_like_me_10C4C929.wem</Path>
+						</File>
+						<File Id="846935363" Language="SFX">
+							<ShortName>Voicelines\Fridge__Maybe_there_is_something_left_to_eat.wav</ShortName>
+							<Path>SFX\Voicelines\Fridge__Maybe_there_is_something_left_to_eat_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2574017784" Name="Interaction_Guitar" ObjectPath="\Events\Default Work Unit\Interaction_Guitar" DurationType="OneShot" DurationMin="2.656871" DurationMax="4.085306">
+					<IncludedMemoryFiles>
+						<File Id="92361229" Language="SFX">
+							<ShortName>Voicelines\Guitar__I_havent_used_this_in_ages.wav</ShortName>
+							<Path>SFX\Voicelines\Guitar__I_havent_used_this_in_ages_10C4C929.wem</Path>
+						</File>
+						<File Id="735341451" Language="SFX">
+							<ShortName>Voicelines\Guitar__Just_like_me_a_waste_of_space.wav</ShortName>
+							<Path>SFX\Voicelines\Guitar__Just_like_me_a_waste_of_space_10C4C929.wem</Path>
+						</File>
+						<File Id="825007206" Language="SFX">
+							<ShortName>Voicelines\Guitar__Maybe_I_should_sell_this.wav</ShortName>
+							<Path>SFX\Voicelines\Guitar__Maybe_I_should_sell_this_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3913799797" Name="Interaction_Knife" ObjectPath="\Events\Default Work Unit\Interaction_Knife" DurationType="OneShot" DurationMin="1.685510" DurationMax="2.731270">
+					<IncludedMemoryFiles>
+						<File Id="13483053" Language="SFX">
+							<ShortName>Voicelines\Knife__My_last_resort.wav</ShortName>
+							<Path>SFX\Voicelines\Knife__My_last_resort_10C4C929.wem</Path>
+						</File>
+						<File Id="816194724" Language="SFX">
+							<ShortName>Voicelines\Knife__My_last_bit_of_control_over_my_life.wav</ShortName>
+							<Path>SFX\Voicelines\Knife__My_last_bit_of_control_over_my_life_10C4C929.wem</Path>
+						</File>
+						<File Id="865744582" Language="SFX">
+							<ShortName>Voicelines\Knife__Would_be_better_for_everybody.wav</ShortName>
+							<Path>SFX\Voicelines\Knife__Would_be_better_for_everybody_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2826267179" Name="Interaction_Mug" ObjectPath="\Events\Default Work Unit\Interaction_Mug" DurationType="OneShot" DurationMin="2.371202" DurationMax="4.190068">
+					<IncludedMemoryFiles>
+						<File Id="468141339" Language="SFX">
+							<ShortName>Voicelines\Mug__I_dont_have_the_strength_to_clean_all_of_this.wav</ShortName>
+							<Path>SFX\Voicelines\Mug__I_dont_have_the_strength_to_clean_all_of_this_10C4C929.wem</Path>
+						</File>
+						<File Id="543042715" Language="SFX">
+							<ShortName>Voicelines\Mug__I_should_really_drink_less_Coffee.wav</ShortName>
+							<Path>SFX\Voicelines\Mug__I_should_really_drink_less_Coffee_10C4C929.wem</Path>
+						</File>
+						<File Id="736687876" Language="SFX">
+							<ShortName>Voicelines\Mug__All_empty_just_like_me.wav</ShortName>
+							<Path>SFX\Voicelines\Mug__All_empty_just_like_me_10C4C929.wem</Path>
+						</File>
+						<File Id="1002670160" Language="SFX">
+							<ShortName>Voicelines\Mug__When_will_I_finally_get_something_done.wav</ShortName>
+							<Path>SFX\Voicelines\Mug__When_will_I_finally_get_something_done_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="233964938" Name="Interaction_Newspaper_CCiM" ObjectPath="\Events\Default Work Unit\Interaction_Newspaper_CCiM" DurationType="OneShot" DurationMin="2.212585" DurationMax="3.751020">
+					<IncludedMemoryFiles>
+						<File Id="246172809" Language="SFX">
+							<ShortName>Voicelines\Newspaper_CCiM__The_biker_was_fine.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_CCiM__The_biker_was_fine_10C4C929.wem</Path>
+						</File>
+						<File Id="568626608" Language="SFX">
+							<ShortName>Voicelines\Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front_10C4C929.wem</Path>
+						</File>
+						<File Id="1033449725" Language="SFX">
+							<ShortName>Voicelines\Newspaer_CCiM__At_least_I_didnt_kill_him_too.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaer_CCiM__At_least_I_didnt_kill_him_too_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="385821004" Name="Interaction_Newspaper_TCC" ObjectPath="\Events\Default Work Unit\Interaction_Newspaper_TCC" DurationType="OneShot" DurationMin="1.485578" DurationMax="4.575873">
+					<IncludedMemoryFiles>
+						<File Id="124993505" Language="SFX">
+							<ShortName>Voicelines\Newspaper_TCC__It_should_have_been_me_instead.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_TCC__It_should_have_been_me_instead_10C4C929.wem</Path>
+						</File>
+						<File Id="183415807" Language="SFX">
+							<ShortName>Voicelines\Newspaper_TCC__The_accident_it_was_my_fault.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_TCC__The_accident_it_was_my_fault_10C4C929.wem</Path>
+						</File>
+						<File Id="303911190" Language="SFX">
+							<ShortName>Voicelines\Newspaper_TCC__Why_did_I_kill_her.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_TCC__Why_did_I_kill_her_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2530462639" Name="Interaction_Picture_Daughter" ObjectPath="\Events\Default Work Unit\Interaction_Picture_Daughter" DurationType="OneShot" DurationMin="2.474195" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="519024496" Language="SFX">
+							<ShortName>Voicelines\Picture_Daughter__My_dear_Daughter.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Daughter__My_dear_Daughter_10C4C929.wem</Path>
+						</File>
+						<File Id="563516279" Language="SFX">
+							<ShortName>Voicelines\Picture_Daughter__It_was_all_my_fault.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Daughter__It_was_all_my_fault_10C4C929.wem</Path>
+						</File>
+						<File Id="1053732403" Language="SFX">
+							<ShortName>Voicelines\Picture_Daughter__I_loved_her_so_much.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Daughter__I_loved_her_so_much_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2849394967" Name="Interaction_Picture_Family" ObjectPath="\Events\Default Work Unit\Interaction_Picture_Family" DurationType="OneShot" DurationMin="2.000000" DurationMax="7.000000">
+					<IncludedMemoryFiles>
+						<File Id="492172539" Language="SFX">
+							<ShortName>Voicelines\Picture_Family__the_divorce_wasnt_as_bad.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Family__the_divorce_wasnt_as_bad_10C4C929.wem</Path>
+						</File>
+						<File Id="492429495" Language="SFX">
+							<ShortName>Voicelines\Picture_ Family__I_dont_like_remembering_those_days.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_ Family__I_dont_like_remembering_those_days_10C4C929.wem</Path>
+						</File>
+						<File Id="702182327" Language="SFX">
+							<ShortName>Voicelines\Picture_Family__Our_last_picture_together.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Family__Our_last_picture_together_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2143311869" Name="Interaction_Picture_Shelf" ObjectPath="\Events\Default Work Unit\Interaction_Picture_Shelf" DurationType="OneShot" DurationMin="2.500000" DurationMax="5.500000">
+					<IncludedMemoryFiles>
+						<File Id="269815776" Language="SFX">
+							<ShortName>Voicelines\Picture_Shelf__Back_when_she_was_still_here.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Shelf__Back_when_she_was_still_here_10C4C929.wem</Path>
+						</File>
+						<File Id="740333452" Language="SFX">
+							<ShortName>Voicelines\Picture_Shelf__Everything_was_better_back_then.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Shelf__Everything_was_better_back_then_10C4C929.wem</Path>
+						</File>
+						<File Id="792337493" Language="SFX">
+							<ShortName>Voicelines\Picture_Shelf__I_dont_want_her_to_see_me_like_this.wav</ShortName>
+							<Path>SFX\Voicelines\Picture_Shelf__I_dont_want_her_to_see_me_like_this_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3913038626" Name="Interaction_Pills" ObjectPath="\Events\Default Work Unit\Interaction_Pills" DurationType="OneShot" DurationMin="1.982041" DurationMax="2.405374">
+					<IncludedMemoryFiles>
+						<File Id="82378073" Language="SFX">
+							<ShortName>Voicelines\Pills__I_forgot_to_take_them_again.wav</ShortName>
+							<Path>SFX\Voicelines\Pills__I_forgot_to_take_them_again_10C4C929.wem</Path>
+						</File>
+						<File Id="182646678" Language="SFX">
+							<ShortName>Voicelines\Pills__Not_as_if_these_work_anyway.wav</ShortName>
+							<Path>SFX\Voicelines\Pills__Not_as_if_these_work_anyway_10C4C929.wem</Path>
+						</File>
+						<File Id="839780220" Language="SFX">
+							<ShortName>Voicelines\Pills__It_just_doesnt_matter_anymore.wav</ShortName>
+							<Path>SFX\Voicelines\Pills__It_just_doesnt_matter_anymore_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1285051097" Name="Interaction_Plant" ObjectPath="\Events\Default Work Unit\Interaction_Plant" DurationType="OneShot" DurationMin="2.199773" DurationMax="3.221995">
+					<IncludedMemoryFiles>
+						<File Id="287221544" Language="SFX">
+							<ShortName>Voicelines\Plant__I_bet_you_are_just_waiting_to_die.wav</ShortName>
+							<Path>SFX\Voicelines\Plant__I_bet_you_are_just_waiting_to_die_10C4C929.wem</Path>
+						</File>
+						<File Id="329844796" Language="SFX">
+							<ShortName>Voicelines\Plant__How_come_you_havent_died_yet.wav</ShortName>
+							<Path>SFX\Voicelines\Plant__How_come_you_havent_died_yet_10C4C929.wem</Path>
+						</File>
+						<File Id="843884406" Language="SFX">
+							<ShortName>Voicelines\Plant__Why_are_you_even_still_alive.wav</ShortName>
+							<Path>SFX\Voicelines\Plant__Why_are_you_even_still_alive_10C4C929.wem</Path>
+						</File>
+						<File Id="926755629" Language="SFX">
+							<ShortName>Voicelines\Plant__When_was_the_last_time_i_watered_you.wav</ShortName>
+							<Path>SFX\Voicelines\Plant__When_was_the_last_time_i_watered_you_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

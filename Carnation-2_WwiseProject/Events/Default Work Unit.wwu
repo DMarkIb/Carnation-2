@@ -25,6 +25,127 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Interaction_Knife" ID="{14F1E822-4B2F-44D8-9926-41BE392EAB1B}">
+					<ChildrenList>
+						<Action Name="" ID="{6CB84549-94AE-4F51-B398-777266E2BFD2}" ShortID="449376928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Knife_Voicelines" ID="{831E334D-96F6-45E4-A905-ED29D5B0AFFB}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Fridge" ID="{72BAA909-0033-4ACD-915A-BEDF172B3F86}">
+					<ChildrenList>
+						<Action Name="" ID="{28F97315-74D3-4D76-8676-5EB370061EAB}" ShortID="614796557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fridge_Voicelines" ID="{30442F0B-7D14-43D6-ADB5-D7162DC699D2}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Pills" ID="{D98F3E9C-74B2-4758-A4A0-C2BA30C78AF1}">
+					<ChildrenList>
+						<Action Name="" ID="{7FB025F0-F979-462B-A609-74A9975859FE}" ShortID="891098907">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pills_Voicelines" ID="{2CCB541C-A15C-4F0A-9AA1-73DEB52FC964}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Plant" ID="{400C9C71-D5CC-497F-8D08-44994CE7135F}">
+					<ChildrenList>
+						<Action Name="" ID="{30A52CED-40E2-453C-B955-A320130CF430}" ShortID="696967275">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_Voicelines" ID="{C56AB371-B3DD-4FCF-95B5-62FBF4D171D2}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Guitar" ID="{91EBD4CF-F328-4F8E-BF7E-7A33D03785AB}">
+					<ChildrenList>
+						<Action Name="" ID="{EDEE2FDC-2C52-46B9-8FB1-C0642B9978F7}" ShortID="20335847">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Guitar_Voicelines" ID="{4BE5D64A-F9D5-4DA9-893E-DFD707721F2A}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Mug" ID="{C4840FD0-37A6-449B-B23D-9EF8DBC19195}">
+					<ChildrenList>
+						<Action Name="" ID="{8D23BDF4-B2A2-45B8-B582-74785FFC9621}" ShortID="426289769">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mug_Voicelines" ID="{0EDEAB71-442D-4333-A01F-68D6D169F312}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Newspaper_TCC" ID="{8BE926BF-6E28-4222-906C-A428322D30ED}">
+					<ChildrenList>
+						<Action Name="" ID="{8D0AE0DC-3BF9-4641-B979-19F0A2C85FDE}" ShortID="488087371">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Newspaper_TCC_Voicelines" ID="{53965647-462C-42E8-A6F0-70F13B8DF44B}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Newspaper_CCiM" ID="{A064561E-948B-419A-AF08-D6C7A8D9D356}">
+					<ChildrenList>
+						<Action Name="" ID="{DEA55F35-5ECE-4E34-A0BE-D9C5FBE8B198}" ShortID="1044508093">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Newspaper_CCiM_Voicelines" ID="{FEAF3714-C7C0-41DB-9CE3-9FB1574F4278}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Picture_Family" ID="{95659B26-FE3D-488C-B9BC-AC6F6EC83ABE}">
+					<ChildrenList>
+						<Action Name="" ID="{AADA41E7-9E37-4184-B2C4-FBF9E3200D02}" ShortID="236878159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Picture_Family_Voicelines" ID="{F5990545-CB09-4126-ABA2-73DCB008F523}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Picture_Shelf" ID="{F4BB5D6E-BF5A-4313-B3AC-A60E35C75C02}">
+					<ChildrenList>
+						<Action Name="" ID="{11F76642-1D7E-4775-BE10-8063C88F721D}" ShortID="787542181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Picture_Shelf_Voicelines" ID="{FB475D88-85C7-4618-BD04-8288E0D42B94}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Picture_Daughter" ID="{BAA4ECD1-6FE1-49C1-B456-422E02209CB3}">
+					<ChildrenList>
+						<Action Name="" ID="{1A090938-6449-40B0-AB8A-2F7B84995396}" ShortID="630564531">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Picture_Daughter_Voicelines" ID="{B2CB47B9-DDA5-4580-9FDD-42FAFE892987}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
