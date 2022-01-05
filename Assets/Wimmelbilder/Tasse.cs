@@ -6,6 +6,7 @@ public class Tasse : MonoBehaviour
 {
     bool Outliness = false;
     public Camera main;
+    //private int counter;
 
     // Start is called before the first frame update
     public void Start()
@@ -43,8 +44,8 @@ public class Tasse : MonoBehaviour
         {
             if (hit.collider.CompareTag("Cup"))
             {
-                //GameObject.Find("Wim").GetComponent<Wim>().counter += 1;
-                //Debug.Log(GameObject.Find("Wim").GetComponent<Wim>().counter);
+                GameObject.Find("Tassen").GetComponent<Tassen>().counter += 1;
+                Debug.Log(GameObject.Find("Tassen").GetComponent<Tassen>().counter);
                 Destroy(gameObject);
             }
         }

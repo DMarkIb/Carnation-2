@@ -15,26 +15,19 @@ public class Trigger : MonoBehaviour
     bool doppelklick = false;
     bool Wimmelbild = false;
 
-    // Start is called before the first frame update
-    //Test
     void Start()
     {
         Spieler = GameObject.Find("Spielfigur");
         cam1.GetComponent<Camera>().enabled = false;
         maincam.GetComponent<Camera>().enabled = true;
         gameObject.GetComponent<Outline>().enabled = false;
-        
-
     }
 
     public void OnMouseDown()
     {
         clicked++;
         clicktime = Time.time;
-        Debug.Log("ClickTrigger");
-
-        //if schleife, prüfen welches objekt geklickt
-
+        //Debug.Log("ClickTrigger");
     }
 
     public void OnMouseEnter()
@@ -49,14 +42,11 @@ public class Trigger : MonoBehaviour
             gameObject.GetComponent<Outline>().enabled = false;
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         if (clicked > 2 || Time.time - clicktime > 1)
         {
             clicked = 0;
-            //Debug.Log("Nope");
             doppelklick = false;
         }
         else if (clicked > 1 )
@@ -84,17 +74,11 @@ public class Trigger : MonoBehaviour
     IEnumerator waiter()
     {
         yield return new WaitForSecondsRealtime(2);
-        //gameObject.GetComponent<Outline>().enabled = false;
-        //GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;
-        Debug.Log("Interaction");
+        //Debug.Log("Interaction");
         cam1.GetComponent<Camera>().enabled = true;
         maincam.GetComponent<Camera>().enabled = false; 
-
-        //HIER KAMERA SWITCH
-
         Spieler.SetActive(false);
         Wimmelbild = true;
         Player.SetBool("Interaction", false);
-
     }
 }
