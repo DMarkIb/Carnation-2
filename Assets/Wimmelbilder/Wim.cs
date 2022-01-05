@@ -36,9 +36,16 @@ public class Wim : MonoBehaviour
     //MARKSENDE
     public void OnMouseDown()
     {
-        clicked++;
-        clicktime = Time.time;
-        Debug.Log("ClickWim");
+        //clicked++;
+        //clicktime = Time.time;
+        //Debug.Log("ClickWim");
+        if (Fertig)
+        {
+            cam1.GetComponent<Camera>().enabled = false;
+            maincam.GetComponent<Camera>().enabled = true;
+            Spieler.SetActive(true);
+            GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;
+        }
     }
 
     public void OnMouseEnter()
