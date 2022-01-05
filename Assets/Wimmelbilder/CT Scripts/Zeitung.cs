@@ -47,8 +47,6 @@ public class Zeitung : MonoBehaviour
     {
             if (GameObject.Find("Tassen").GetComponent<Tassen>().counter == 8)
             {
-            //Debug.Log("yes");
-
             paperCam.GetComponent<Camera>().enabled = true;
             cam1.GetComponent<Camera>().enabled = false;            
             }
