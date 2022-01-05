@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Boden
+  - Messer
   - Pillen
+  - Notebook
   - Door
+  - Cup
   - Destroy
   layers:
   - Default

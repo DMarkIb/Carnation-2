@@ -8,11 +8,11 @@ public class Trigger : MonoBehaviour
     public Camera maincam;
     public Animator Player;
 
-    //float clicked = 0;
-    //float clicktime = 0;
+    float clicked = 0;
+    float clicktime = 0;
  
     private GameObject Spieler;
-    //bool doppelklick = false;
+    bool doppelklick = false;
     bool Wimmelbild = false;
 
     void Start()
