@@ -50,20 +50,7 @@ public class Zeitung : MonoBehaviour
             //Debug.Log("yes");
 
             paperCam.GetComponent<Camera>().enabled = true;
-            cam1.GetComponent<Camera>().enabled = false;
-
-            //StartCoroutine(waiter2());            
+            cam1.GetComponent<Camera>().enabled = false;            
             }
-    }
-
-    IEnumerator waiter2()
-    {
-        yield return new WaitForSecondsRealtime(3);
-        Debug.Log("Cam Switch");
-        cam1.GetComponent<Camera>().enabled = false;
-        paperCam.GetComponent<Camera>().enabled = false;
-        mainCam.GetComponent<Camera>().enabled = true;
-        Spieler.SetActive(true);
-        GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;
     }
 }

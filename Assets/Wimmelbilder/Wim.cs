@@ -6,7 +6,6 @@ public class Wim : MonoBehaviour
 {
     public Camera cam1;
     public Camera maincam;
-    public Camera paperCam;
 
     float clicked = 0;
     float clicktime = 0;
@@ -76,7 +75,6 @@ public class Wim : MonoBehaviour
             if (Fertig)
             {
                 cam1.GetComponent<Camera>().enabled = false;
-                paperCam.GetComponent<Camera>().enabled = false;
                 maincam.GetComponent<Camera>().enabled = true;
                 Spieler.SetActive(true);
                 GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;

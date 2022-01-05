@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tasse : MonoBehaviour
+public class EsstischWM : MonoBehaviour
 {
-    public Camera CT;
+    public Camera ET;
 
     public void Start()
     {
@@ -18,23 +18,23 @@ public class Tasse : MonoBehaviour
 
     public void OnMouseEnter()
     {
-            gameObject.GetComponent<Outline>().enabled = true;
+        gameObject.GetComponent<Outline>().enabled = true;
     }
 
     public void OnMouseExit()
     {
-            gameObject.GetComponent<Outline>().enabled = false;
+        gameObject.GetComponent<Outline>().enabled = false;
     }
 
     public void OnMouseDown()
     {
         RaycastHit hit;
-        Ray ray = CT.ScreenPointToRay(Input.mousePosition);
+        Ray ray = ET.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.collider.CompareTag("Destroy"))
             {
-                GameObject.Find("Tassen").GetComponent<Tassen>().counter += 1;
+                GameObject.Find("ETWMOver").GetComponent<ETWMOver>().counter2 += 1;
                 Destroy(gameObject);
             }
         }
