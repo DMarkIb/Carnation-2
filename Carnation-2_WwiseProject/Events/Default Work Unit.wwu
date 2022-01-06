@@ -222,6 +222,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Door" ID="{2B7D0E60-67BC-44C8-AA70-683FBB160FC8}">
+					<ChildrenList>
+						<Action Name="" ID="{33CA71C1-D307-49BE-8D03-0853D63ACB02}" ShortID="205917725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{6C0EF553-EE3E-41D1-899C-572AEB4CC265}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

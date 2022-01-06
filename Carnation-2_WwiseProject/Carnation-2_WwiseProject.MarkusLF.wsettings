@@ -4,10 +4,12 @@
 		<UserProjectSettings Name="" ID="{EAC5AA59-84C9-49AF-A371-2462775BF981}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\Originals\SFX\Music\"/>
+				<Property Name="Event Action List\{086D75CE-9140-4EFB-901D-418373F0857B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{141D1DC2-2221-4866-AC2F-40D6D79B6B10}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{14F1E822-4B2F-44D8-9926-41BE392EAB1B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{26D45FEC-CA92-48D9-B521-B6EDF4C6983E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{26FFD1CB-2B54-4AEA-BAB1-7DA4E634F97A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2B7D0E60-67BC-44C8-AA70-683FBB160FC8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{347399CB-62A9-4151-BDF2-3918BA3273EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3B973AB4-C364-4683-9617-ABFA93954227}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{400C9C71-D5CC-497F-8D08-44994CE7135F}\x64_Expand States" Type="string" Value=""/>
@@ -48,7 +50,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="/yMi7qVcTEyBGLM2TPI9/w=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="nL3Nj8w5OUOrtDsMl3+m4w=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="WKJ91UccckGT9uGo0gNV8gEnmfT/////r4WPO1K3PkWvLRFxinQs/wEnmfT/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="WKJ91UccckGT9uGo0gNV8gEnZMz/////r4WPO1K3PkWvLRFxinQs/wEnZMz/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -81,7 +83,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="/B/NBedXqE2+JEwf8jDYpA=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="j0/FTWBuFkKZFtwDFdZa4iqsJTLbCx5Eh68nHHwYIXl7VwTcxIQgTKbf3ngEfeVlOuF/KacPVU6AjChF01I4Ow=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="wRdqK73AP0CxYzdQLHGMgkgerJRJYppAgEb8Oz+dLelFBZn1CcsmQauic9ywCPUjFDev/sDH20Gc45+xV09CeI9PxU1gbhZCmRbcAxXWWuJHVpZTLEboQqbwcPE7jfRLcaveDi1EM0OgH2jW0WnzEiqsJTLbCx5Eh68nHHwYIXm5R8uypd2ARZ/dQvr+iSmHTTMeg/aW5EWpBe0p1bCv+4hdR/vHhRhGvQSCiODUK5QQC6+mLKHjRpjmJlElgo7Xe1cE3MSEIEym3954BH3lZUrW5UvV+alNiT7f1wdyHyocVMssXKEKT5qhc961L8lkzVNpA0fbeE+dvlEqix6QfnGzasXds89PlbVi+/TRcdI="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="HBElhuFkmk6anWvhGgUmuw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>

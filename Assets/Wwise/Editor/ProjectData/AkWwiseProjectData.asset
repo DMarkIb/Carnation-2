@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9a81895de7fe6a459d20f4acddc9cd45
     GuidInternal: 
-    m_lastTime: -8585601648790646555
+    m_lastTime: -8585601630231733056
     List:
     - name: Main_Soundbank
       guid: 9cbdcd8fcc393943abb43b0c977fa6e3
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1c112586e1649a4e9a9d6be11a0526bb
     GuidInternal: 
-    m_lastTime: -8585601648790496683
+    m_lastTime: -8585601630231590009
     List:
+    - name: Door
+      guid: 600e7d2bbc67c844aa70683fbb160fc8
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Door
+        ObjectType: 3
+        guid: 600e7d2bbc67c844aa70683fbb160fc8
+      Path: Events\Default Work Unit\Door
+      maxAttenuation: 0
+      maxDuration: 1.452311
+      minDuration: 0.350774
     - name: InBewegung
       guid: 3985caa390bdbc4b9203fe80e0345f2c
       id: 426932622

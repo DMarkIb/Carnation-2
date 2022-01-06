@@ -11,16 +11,52 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3451077297">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3967265595">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3974756012">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" DurationType="OneShot" DurationMin="0.350774" DurationMax="1.452311">
+					<IncludedMemoryFiles>
+						<File Id="126296006" Language="SFX">
+							<ShortName>Sounds\Tür_-06.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-06_10C4C929.wem</Path>
+						</File>
+						<File Id="387914562" Language="SFX">
+							<ShortName>Sounds\Tür_-07.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-07_10C4C929.wem</Path>
+						</File>
+						<File Id="397512941" Language="SFX">
+							<ShortName>Sounds\Tür_-03.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-03_10C4C929.wem</Path>
+						</File>
+						<File Id="519484913" Language="SFX">
+							<ShortName>Sounds\Tür_-04.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-04_10C4C929.wem</Path>
+						</File>
+						<File Id="556754183" Language="SFX">
+							<ShortName>Sounds\Tür_.wav</ShortName>
+							<Path>SFX\Sounds\Tür__10C4C929.wem</Path>
+						</File>
+						<File Id="955264716" Language="SFX">
+							<ShortName>Sounds\Tür_-05.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-05_10C4C929.wem</Path>
+						</File>
+						<File Id="1012307034" Language="SFX">
+							<ShortName>Sounds\Tür_-02.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-02_10C4C929.wem</Path>
+						</File>
+						<File Id="1056049917" Language="SFX">
+							<ShortName>Sounds\Tür_-01.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="426932622" Name="InBewegung" ObjectPath="\Events\Default Work Unit\InBewegung" DurationType="OneShot" DurationMin="0.422012" DurationMax="1.030259">
 					<IncludedMemoryFiles>
 						<File Id="5440349" Language="SFX">
@@ -473,6 +509,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3228461146" Name="Music_Slow" ObjectPath="\Events\Default Work Unit\Music_Slow" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="99243812" Language="SFX">
+							<ShortName>Music\Main Theme slow--Master.wav</ShortName>
+							<Path>SFX\Music\Main Theme slow--Master_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2110143099" Name="Switch_Fill" ObjectPath="\Events\Default Work Unit\Switch_Fill" DurationType="OneShot" DurationMin="0.640247" DurationMax="3.292608">
 					<IncludedMemoryFiles>
 						<File Id="38687384" Language="SFX">
@@ -549,7 +593,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2935388662" Name="Switch_Paper" ObjectPath="\Events\Default Work Unit\Switch_Paper" DurationType="OneShot" DurationMin="1.204179" DurationMax="11.655749">
+				<Event Id="2935388662" Name="Switch_Paper" ObjectPath="\Events\Default Work Unit\Switch_Paper" DurationType="OneShot" DurationMin="2.365036" DurationMax="11.655749">
 					<IncludedMemoryFiles>
 						<File Id="165635365" Language="SFX">
 							<ShortName>Sounds\Papier_-04.wav</ShortName>
@@ -566,18 +610,6 @@
 						<File Id="270185720" Language="SFX">
 							<ShortName>Sounds\Papier_-03.wav</ShortName>
 							<Path>SFX\Sounds\Papier_-03_10C4C929.wem</Path>
-						</File>
-						<File Id="312361865" Language="SFX">
-							<ShortName>Sounds\Papier_.wav</ShortName>
-							<Path>SFX\Sounds\Papier__10C4C929.wem</Path>
-						</File>
-						<File Id="393403794" Language="SFX">
-							<ShortName>Sounds\Papier_-08.wav</ShortName>
-							<Path>SFX\Sounds\Papier_-08_10C4C929.wem</Path>
-						</File>
-						<File Id="401018798" Language="SFX">
-							<ShortName>Sounds\Papier_-06.wav</ShortName>
-							<Path>SFX\Sounds\Papier_-06_10C4C929.wem</Path>
 						</File>
 						<File Id="591695146" Language="SFX">
 							<ShortName>Sounds\Papier_-07.wav</ShortName>
@@ -602,6 +634,22 @@
 						<File Id="905564050" Language="SFX">
 							<ShortName>Sounds\Papier_-05.wav</ShortName>
 							<Path>SFX\Sounds\Papier_-05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="126537269" Name="Switch_Paper_Short" ObjectPath="\Events\Default Work Unit\Switch_Paper_Short" DurationType="OneShot" DurationMin="1.204179" DurationMax="5.714128">
+					<IncludedMemoryFiles>
+						<File Id="312361865" Language="SFX">
+							<ShortName>Sounds\Papier_.wav</ShortName>
+							<Path>SFX\Sounds\Papier__10C4C929.wem</Path>
+						</File>
+						<File Id="393403794" Language="SFX">
+							<ShortName>Sounds\Papier_-08.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-08_10C4C929.wem</Path>
+						</File>
+						<File Id="401018798" Language="SFX">
+							<ShortName>Sounds\Papier_-06.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-06_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

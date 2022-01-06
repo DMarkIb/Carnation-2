@@ -16,11 +16,47 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="1969981715">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3974756012">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" DurationType="OneShot" DurationMin="0.350774" DurationMax="1.452311">
+					<IncludedMemoryFiles>
+						<File Id="126296006" Language="SFX">
+							<ShortName>Sounds\Tür_-06.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-06_10C4C929.wem</Path>
+						</File>
+						<File Id="387914562" Language="SFX">
+							<ShortName>Sounds\Tür_-07.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-07_10C4C929.wem</Path>
+						</File>
+						<File Id="397512941" Language="SFX">
+							<ShortName>Sounds\Tür_-03.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-03_10C4C929.wem</Path>
+						</File>
+						<File Id="519484913" Language="SFX">
+							<ShortName>Sounds\Tür_-04.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-04_10C4C929.wem</Path>
+						</File>
+						<File Id="556754183" Language="SFX">
+							<ShortName>Sounds\Tür_.wav</ShortName>
+							<Path>SFX\Sounds\Tür__10C4C929.wem</Path>
+						</File>
+						<File Id="955264716" Language="SFX">
+							<ShortName>Sounds\Tür_-05.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-05_10C4C929.wem</Path>
+						</File>
+						<File Id="1012307034" Language="SFX">
+							<ShortName>Sounds\Tür_-02.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-02_10C4C929.wem</Path>
+						</File>
+						<File Id="1056049917" Language="SFX">
+							<ShortName>Sounds\Tür_-01.wav</ShortName>
+							<Path>SFX\Sounds\Tür_-01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="426932622" Name="InBewegung" ObjectPath="\Events\Default Work Unit\InBewegung" DurationType="OneShot" DurationMin="0.422012" DurationMax="1.030259">
 					<IncludedMemoryFiles>
 						<File Id="5440349" Language="SFX">

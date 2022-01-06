@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DOOR = 1877847629U;
         static const AkUniqueID INBEWEGUNG = 426932622U;
         static const AkUniqueID INTERACTION = 3900887599U;
         static const AkUniqueID INTERACTION_FRIDGE = 854870849U;
