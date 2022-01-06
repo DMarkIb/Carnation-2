@@ -211,6 +211,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Music_Slow" ID="{086D75CE-9140-4EFB-901D-418373F0857B}">
+					<ChildrenList>
+						<Action Name="" ID="{7EEF8D6D-6FB3-4442-BF2D-5E235E9C97E2}" ShortID="1048498672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Theme slow--Master" ID="{A0CF46F0-0CD9-4CCA-BFCC-5422CF33E633}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

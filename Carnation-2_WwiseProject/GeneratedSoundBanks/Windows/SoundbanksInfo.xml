@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1967826047">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3338510738">
+		<SoundBank Id="2228651116" Language="SFX" Hash="1969981715">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -470,6 +470,14 @@
 						<File Id="926755629" Language="SFX">
 							<ShortName>Voicelines\Plant__When_was_the_last_time_i_watered_you.wav</ShortName>
 							<Path>SFX\Voicelines\Plant__When_was_the_last_time_i_watered_you_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3228461146" Name="Music_Slow" ObjectPath="\Events\Default Work Unit\Music_Slow" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="99243812" Language="SFX">
+							<ShortName>Music\Main Theme slow--Master.wav</ShortName>
+							<Path>SFX\Music\Main Theme slow--Master_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

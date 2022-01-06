@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9a81895de7fe6a459d20f4acddc9cd45
     GuidInternal: 
-    m_lastTime: -8585601676855566686
+    m_lastTime: -8585601648790646555
     List:
     - name: Main_Soundbank
       guid: 9cbdcd8fcc393943abb43b0c977fa6e3
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1c112586e1649a4e9a9d6be11a0526bb
     GuidInternal: 
-    m_lastTime: -8585601676855427060
+    m_lastTime: -8585601648790496683
     List:
     - name: InBewegung
       guid: 3985caa390bdbc4b9203fe80e0345f2c
@@ -334,6 +334,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.221995
       minDuration: 2.199773
+    - name: Music_Slow
+      guid: ce756d084091fb4e901d418373f0857b
+      id: 3228461146
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Music_Slow
+        ObjectType: 3
+        guid: ce756d084091fb4e901d418373f0857b
+      Path: Events\Default Work Unit\Music_Slow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Switch_Fill
       guid: ac6ff49c5f4960429bc0b811baad381e
       id: 2110143099
@@ -428,8 +445,42 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 1d3fe487059b10479b3a610bfe70747a
     GuidInternal: 
-    m_lastTime: -8585608872036698121
-    List: []
+    m_lastTime: -8585601648790764722
+    List:
+    - name: New_State_Group
+      guid: 1bb6d3dabe4ec543afb612fbf53d3181
+      id: 2012657067
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d3fe487059b10479b3a610bfe70747a
+      - ElementName: New_State_Group
+        ObjectType: 9
+        guid: 1bb6d3dabe4ec543afb612fbf53d3181
+      Path: States\Default Work Unit\New_State_Group
+      values:
+      - name: None
+        guid: d88cb8dd9ebba841ae584999543395f2
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1d3fe487059b10479b3a610bfe70747a
+        - ElementName: New_State_Group
+          ObjectType: 9
+          guid: 1bb6d3dabe4ec543afb612fbf53d3181
+        - ElementName: None
+          ObjectType: 8
+          guid: d88cb8dd9ebba841ae584999543395f2
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -459,7 +510,7 @@ MonoBehaviour:
     m_lastTime: -8585608872036698121
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000060000000700000034000000350000003700000038000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000340000003500000037000000380000006c0000006d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

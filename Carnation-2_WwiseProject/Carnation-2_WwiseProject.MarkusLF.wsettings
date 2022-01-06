@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{EAC5AA59-84C9-49AF-A371-2462775BF981}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\Originals\SFX\Sounds\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\Originals\SFX\Music\"/>
 				<Property Name="Event Action List\{141D1DC2-2221-4866-AC2F-40D6D79B6B10}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{14F1E822-4B2F-44D8-9926-41BE392EAB1B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{26D45FEC-CA92-48D9-B521-B6EDF4C6983E}\x64_Expand States" Type="string" Value=""/>
@@ -59,6 +59,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="PluginUserAcknowledge\iZotope Hybrid Reverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>

@@ -4073,6 +4073,306 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{2B6A17C1-C0BD-403F-B163-37502C718C82}" ShortID="320808150">
+					<ChildrenList>
+						<Sound Name="Main Theme slow--Master" ID="{A0CF46F0-0CD9-4CCA-BFCC-5422CF33E633}" ShortID="542969266">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Main Theme slow--Master" ID="{F99551FB-1F14-4A10-82C7-412BDA787AE2}">
+									<Language>SFX</Language>
+									<AudioFile>Music\Main Theme slow--Master.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="99243812"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Main Theme slow--Master" ID="{F99551FB-1F14-4A10-82C7-412BDA787AE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Main Themecomplete--Master" ID="{A1891AD4-66CE-4C8C-A19A-D63D42B645F3}" ShortID="908567234">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Main Themecomplete--Master" ID="{3CF989A6-0548-441D-AAAC-D88ADF693A84}">
+									<Language>SFX</Language>
+									<AudioFile>Music\Main Themecomplete--Master.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="320345596"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Main Themecomplete--Master" ID="{3CF989A6-0548-441D-AAAC-D88ADF693A84}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Music_Rando" ID="{DFB3DD7B-F995-46A9-BCC9-D2C7F01BB4C1}" ShortID="979991278">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="iZotope Hybrid Reverb (Custom)" ID="{8DA4FDAB-6EF7-4D60-AFC9-9F0BB342E0F7}" ShortID="212589569" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="2.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Main Theme05--Master" ID="{DE05F972-94DA-49FB-BABF-16C847BF106F}" ShortID="365621362">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme05--Master" ID="{2ECDA012-4541-4725-BA68-170685FD396E}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme05--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="169576710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme05--Master" ID="{2ECDA012-4541-4725-BA68-170685FD396E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme06--Master" ID="{C66702C7-53D1-40F0-AFD9-3D540C763414}" ShortID="894714514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme06--Master" ID="{27EEF7A5-6CE9-44A0-B000-546441601F67}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme06--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="406883563"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme06--Master" ID="{27EEF7A5-6CE9-44A0-B000-546441601F67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme07--Master" ID="{490A2645-1192-4280-9444-E0FBAB56D6FA}" ShortID="31052259">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme07--Master" ID="{DC54D674-2A88-4F6E-966B-8439ABBFB587}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme07--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1067250041"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme07--Master" ID="{DC54D674-2A88-4F6E-966B-8439ABBFB587}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme08--Master" ID="{AEB02B03-6F30-4E4D-9D29-FA247E5CDA04}" ShortID="665093989">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme08--Master" ID="{C3383290-DA9C-46DE-B8ED-A7876A249966}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme08--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550784911"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme08--Master" ID="{C3383290-DA9C-46DE-B8ED-A7876A249966}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme09--Master" ID="{7BC6486D-98F3-4CC1-96FD-936E78B1F639}" ShortID="213736433">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme09--Master" ID="{EF93BC6D-13AF-4652-866E-1315C6A270A3}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme09--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1067369850"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme09--Master" ID="{EF93BC6D-13AF-4652-866E-1315C6A270A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme01--Master" ID="{DEB4B9BE-E9BF-4DE1-B9E8-EA65A30BAEF5}" ShortID="558624882">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme01--Master" ID="{118577A6-258C-4F69-AEB7-0BDABB813552}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme01--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="887178506"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme01--Master" ID="{118577A6-258C-4F69-AEB7-0BDABB813552}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme02--Master" ID="{00933E27-06B4-4352-854B-A39EE42CC4F7}" ShortID="368344424">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme02--Master" ID="{14B40DC2-777F-4A1A-B1FE-B1513D7F517F}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme02--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332270156"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme02--Master" ID="{14B40DC2-777F-4A1A-B1FE-B1513D7F517F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme03--Master" ID="{8DF21B27-F3F0-4615-8A76-655532C7A115}" ShortID="851741075">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme03--Master" ID="{1F51BE8E-5AA7-4616-AF31-B1B2957F1217}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme03--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="356606636"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme03--Master" ID="{1F51BE8E-5AA7-4616-AF31-B1B2957F1217}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Main Theme04--Master" ID="{8EECB806-4C7D-440D-B2C7-3F2A74D14101}" ShortID="728310435">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8A0924B5-BB72-4B58-B66F-9AA905F6CCF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05CD1FFC-57E7-4DA8-BE24-4C1FF230D8A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Theme04--Master" ID="{58B72EAE-46B4-49AD-BA82-6A9B3C48051F}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Main Theme04--Master.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="334052667"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Theme04--Master" ID="{58B72EAE-46B4-49AD-BA82-6A9B3C48051F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

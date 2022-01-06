@@ -13,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2826267179	Interaction_Mug			\Default Work Unit\Interaction_Mug	
 	2849394967	Interaction_Picture_Family			\Default Work Unit\Interaction_Picture_Family	
 	2935388662	Switch_Paper			\Default Work Unit\Switch_Paper	
+	3228461146	Music_Slow			\Default Work Unit\Music_Slow	
 	3783922612	Interaction_Mug_Sound_Only			\Default Work Unit\Interaction_Mug_Sound_Only	
 	3900887599	Interaction			\Default Work Unit\Interaction	
 	3913038626	Interaction_Pills			\Default Work Unit\Interaction_Pills	
@@ -25,6 +26,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	38687384	Myst_-02	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Myst_-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Myst\Myst_-02		84280
 	82378073	Pills__I_forgot_to_take_them_again	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Pills__I_forgot_to_take_them_again_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Pills_Voicelines\Pills__I_forgot_to_take_them_again		349696
 	92361229	Guitar__I_havent_used_this_in_ages	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Guitar__I_havent_used_this_in_ages_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Guitar_Voicelines\Guitar__I_havent_used_this_in_ages		619920
+	99243812	Main Theme slow--Master	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Music\Main Theme slow--Master_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Main Theme slow--Master		12315996
 	124993505	Newspaper_TCC__It_should_have_been_me_instead	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Newspaper_TCC__It_should_have_been_me_instead_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Newspaper_TCC_Voicelines\Newspaper_TCC__It_should_have_been_me_instead		312516
 	138163342	Tassen_-11	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Tassen_-11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Mugs\Tassen_-11		143380
 	165635365	Papier_-04	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Papier_-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Paper\Papier_-04		1453928

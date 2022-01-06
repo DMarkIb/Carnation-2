@@ -27,11 +27,26 @@ namespace AK
         static const AkUniqueID INTERACTION_PICTURE_SHELF = 2143311869U;
         static const AkUniqueID INTERACTION_PILLS = 3913038626U;
         static const AkUniqueID INTERACTION_PLANT = 1285051097U;
+        static const AkUniqueID MUSIC_SLOW = 3228461146U;
         static const AkUniqueID SWITCH_FILL = 2110143099U;
         static const AkUniqueID SWITCH_PAPER = 2935388662U;
         static const AkUniqueID SWITCH_PAPER_SHORT = 126537269U;
         static const AkUniqueID SWITCH_TABLE = 1082295148U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace NEW_STATE_GROUP
+        {
+            static const AkUniqueID GROUP = 2012657067U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace NEW_STATE_GROUP
+
+    } // namespace STATES
 
     namespace BANKS
     {

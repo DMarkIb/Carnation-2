@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -1299,6 +1299,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.03, y: 0.03, z: 0.050913822}
   m_Center: {x: 0, y: 7.485781e-17, z: 0.024543107}
+--- !u!114 &345522316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345522310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &350106818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1458,7 +1476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -1704,7 +1722,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ad4000a8fbd9db84f93e06e93cdc2175, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 027eb30df12d23e4686c1599b74285f6, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -1755,7 +1773,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 410617e2198e10f4cb30eb7043a369c1, type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -2981,7 +2999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -3784,7 +3802,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b1b4609c07df6524288f26b0d53579f1, type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -4333,7 +4351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 0, b: 0.50827074, a: 1}
+  outlineColor: {r: 0.7830189, g: 0, b: 0.12907524, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -4358,7 +4376,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5f2c154953add61408cf767b43e5b00a, type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -4836,7 +4854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -4871,7 +4889,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 33f7ced7f74dcc448b37351213382a53, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 5f2c154953add61408cf767b43e5b00a, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -4892,8 +4910,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineMode: 1
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -5355,6 +5373,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.021915587, y: 0.021891057, z: 0.04595906}
   m_Center: {x: 0.00000055038447, y: -0.0000000021627606, z: -0.02298457}
+--- !u!114 &947661847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947661840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &952129487
 GameObject:
   m_ObjectHideFlags: 0
@@ -6092,7 +6128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 0, b: 0.5446758, a: 1}
+  outlineColor: {r: 0.7830189, g: 0, b: 0.12907524, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -6117,7 +6153,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5f2c154953add61408cf767b43e5b00a, type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -6790,7 +6826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -7816,7 +7852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -7911,7 +7947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -8398,7 +8434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 0, b: 0.54400826, a: 1}
+  outlineColor: {r: 0.7830189, g: 0, b: 0.12907524, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -12232,6 +12268,8 @@ GameObject:
   - component: {fileID: 1703901779}
   - component: {fileID: 1703901778}
   - component: {fileID: 1703901777}
+  - component: {fileID: 1703901782}
+  - component: {fileID: 1703901781}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -12310,12 +12348,63 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703901776}
   m_LocalRotation: {x: -0.40821788, y: 0.23456968, z: -0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -0.566185, y: 2.774298, z: 5.5914307}
+  m_LocalPosition: {x: 13.49, y: -3.44, z: 0.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 596059945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1703901781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703901776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eac94580be9eea4b86d2239a88f25ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: be6b14e10dbd32a4bb6718d2f84da0df, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &1703901782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703901776}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3180f569a998ac04287af29557821b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 1
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1746436109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12610,7 +12699,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: dbe575c6b2a492740aba702424362562, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 464477181882f37448c8b3af7f349611, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -12680,7 +12769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -12840,7 +12929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -14220,7 +14309,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 464477181882f37448c8b3af7f349611, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: dbe575c6b2a492740aba702424362562, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -14290,7 +14379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -14825,7 +14914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -15058,6 +15147,8 @@ GameObject:
   - component: {fileID: 1145985552573449236}
   - component: {fileID: 336797339269111473}
   - component: {fileID: 336797339269111472}
+  - component: {fileID: 336797339269111474}
+  - component: {fileID: 336797339269111471}
   m_Layer: 0
   m_Name: LOR_FBX
   m_TagString: Destroy
@@ -15065,6 +15156,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &336797339269111471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336797339269111470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eac94580be9eea4b86d2239a88f25ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 9864aaa1
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b1b4609c07df6524288f26b0d53579f1, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!65 &336797339269111472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15091,11 +15211,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &336797339269111474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336797339269111470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3180f569a998ac04287af29557821b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!33 &337779814873783264
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17120,7 +17262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -17275,7 +17417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -19143,7 +19285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -21904,6 +22046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2858421872687813994}
+  - component: {fileID: 5282207488199313180}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: Pillen
@@ -21911,6 +22054,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5282207488199313180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5282207488199313179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!4 &5330929098270999168
 Transform:
   m_ObjectHideFlags: 0
@@ -22571,8 +22732,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0, g: 0.8398378, b: 1, a: 1}
+  outlineMode: 1
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 2
   precomputeOutline: 0
   bakeKeys: []
@@ -23091,7 +23252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -23617,6 +23778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1969840360610593247}
+  - component: {fileID: 6528758993669793774}
   m_Layer: 0
   m_Name: Guitar
   m_TagString: Untagged
@@ -23624,6 +23786,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!114 &6528758993669793774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6528758993669793773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!23 &6547230059275035163
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24794,7 +24974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -25029,7 +25209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 1, a: 1}
+  outlineColor: {r: 0.14751692, g: 0.46801105, b: 0.8018868, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []

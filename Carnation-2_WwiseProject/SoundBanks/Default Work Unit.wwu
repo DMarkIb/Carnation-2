@@ -22,6 +22,7 @@
 						<ObjectRef Name="Interaction" ID="{26FFD1CB-2B54-4AEA-BAB1-7DA4E634F97A}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="InBewegung" ID="{A3CA8539-BD90-4BBC-9203-FE80E0345F2C}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Switch_Table" ID="{6FB5D09C-B00F-4C5E-AFDA-AE963FB18E08}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Slow" ID="{086D75CE-9140-4EFB-901D-418373F0857B}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interaction_Guitar" ID="{91EBD4CF-F328-4F8E-BF7E-7A33D03785AB}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
