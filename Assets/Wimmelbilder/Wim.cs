@@ -18,7 +18,6 @@ public class Wim : MonoBehaviour
 
     public int counter;
 
-    // Start is called before the first frame update
     void Start()
     {
         Spieler = GameObject.Find("Spielfigur");
@@ -26,26 +25,18 @@ public class Wim : MonoBehaviour
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-
-    //MARKSANFANG
-    public void Counter()
-    {
-        counter = counter + 1;
-        Debug.Log(counter);
-    }
-    //MARKSENDE
     public void OnMouseDown()
     {
-        //clicked++;
-        //clicktime = Time.time;
-        //Debug.Log("ClickWim");
-        if (Fertig)
-        {
-            cam1.GetComponent<Camera>().enabled = false;
-            maincam.GetComponent<Camera>().enabled = true;
-            Spieler.SetActive(true);
-            GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;
-        }
+        clicked++;
+        clicktime = Time.time;
+        Debug.Log("ClickWim");
+        //if (Fertig)
+        //{
+        //    cam1.GetComponent<Camera>().enabled = false;
+        //    maincam.GetComponent<Camera>().enabled = true;
+        //    Spieler.SetActive(true);
+        //    GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;
+        //}
     }
 
     public void OnMouseEnter()
@@ -60,7 +51,6 @@ public class Wim : MonoBehaviour
             gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (clicked > 1 && Time.time - clicktime < clickdelay)
@@ -73,7 +63,6 @@ public class Wim : MonoBehaviour
         else if (clicked > 2 || Time.time - clicktime > 1)
         {
             clicked = 0;
-            //Debug.Log("Nope");
             doppelklick = false;
         }
 

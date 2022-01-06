@@ -34,7 +34,6 @@ public class Tasse : MonoBehaviour
         {
             if (hit.collider.CompareTag("Destroy"))
             {
-                GameObject.Find("Tassen").GetComponent<Tassen>().counter += 1;
                 Destroy(gameObject);
             }
         }

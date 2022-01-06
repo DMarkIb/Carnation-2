@@ -6,51 +6,56 @@ public class Zeitung : MonoBehaviour
 {
     public Camera cam1;
     public Camera paperCam;
-    public Camera mainCam;
+    private bool switched = false;
 
-    public GameObject Spieler;
-
-    // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<Outline>().enabled = false;
-
-        mainCam.GetComponent<Camera>().enabled = false;
         paperCam.GetComponent<Camera>().enabled = false;
-        cam1.GetComponent<Camera>().enabled = true;
+        gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void OnMouseEnter()
     {
-        if (GameObject.Find("Tassen").GetComponent<Tassen>().counter == 8)
+        if (switched == false)
         {
-            gameObject.GetComponent<Outline>().enabled = true;
+            if (GameObject.Find("ETObj") == null)
+            {
+                gameObject.GetComponent<Outline>().enabled = true;
+            }
         }
-            
     }
     
     public void OnMouseExit()
     {
-        if (GameObject.Find("Tassen").GetComponent<Tassen>().counter == 8)
+        if (switched == false)
         {
-            gameObject.GetComponent<Outline>().enabled = false;
+            if (GameObject.Find("ETObj") == null)
+            {
+                gameObject.GetComponent<Outline>().enabled = false;
+            }
         }
     }
 
     public void OnMouseDown()
     {
-            if (GameObject.Find("Tassen").GetComponent<Tassen>().counter == 8)
+        if (switched == false)
+        {
+            if (GameObject.Find("ETObj") == null)
             {
-            //Debug.Log("yes");
-
-            paperCam.GetComponent<Camera>().enabled = true;
-            cam1.GetComponent<Camera>().enabled = false;            
+                CameraSwitch();
             }
+        }
+    }
+
+    private void CameraSwitch()
+    {
+        paperCam.GetComponent<Camera>().enabled = true;
+        cam1.GetComponent<Camera>().enabled = false;
+        switched = true;
     }
 }

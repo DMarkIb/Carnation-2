@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EsstischWM : MonoBehaviour
+public class Destroy : MonoBehaviour
 {
-    public Camera ET;
+    public Camera Cam;
 
     public void Start()
     {
@@ -29,12 +29,11 @@ public class EsstischWM : MonoBehaviour
     public void OnMouseDown()
     {
         RaycastHit hit;
-        Ray ray = ET.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Cam.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.collider.CompareTag("Destroy"))
             {
-                GameObject.Find("ETWMOver").GetComponent<ETWMOver>().counter2 += 1;
                 Destroy(gameObject);
             }
         }

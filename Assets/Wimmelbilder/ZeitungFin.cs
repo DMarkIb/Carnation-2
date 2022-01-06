@@ -25,7 +25,6 @@ public class ZeitungFin : MonoBehaviour
     public void OnMouseDown()
     {
         Debug.Log("Cam Switch");
-        cam1.GetComponent<Camera>().enabled = false;
         paperCam.GetComponent<Camera>().enabled = false;
         mainCam.GetComponent<Camera>().enabled = true;
         Spieler.SetActive(true);
