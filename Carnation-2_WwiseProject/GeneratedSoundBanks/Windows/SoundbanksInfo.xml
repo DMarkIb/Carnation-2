@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3813443436">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3338510738">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -149,32 +149,224 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2826267179" Name="Interaction_Mug" ObjectPath="\Events\Default Work Unit\Interaction_Mug" DurationType="OneShot" DurationMin="2.371202" DurationMax="4.190068">
+				<Event Id="2826267179" Name="Interaction_Mug" ObjectPath="\Events\Default Work Unit\Interaction_Mug" DurationType="OneShot" DurationMin="2.871202" DurationMax="4.690068">
 					<IncludedMemoryFiles>
-						<File Id="468141339" Language="SFX">
-							<ShortName>Voicelines\Mug__I_dont_have_the_strength_to_clean_all_of_this.wav</ShortName>
-							<Path>SFX\Voicelines\Mug__I_dont_have_the_strength_to_clean_all_of_this_10C4C929.wem</Path>
+						<File Id="35112935" Language="SFX">
+							<ShortName>Sounds\Tassen_-03.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-03_10C4C929.wem</Path>
+						</File>
+						<File Id="138163342" Language="SFX">
+							<ShortName>Sounds\Tassen_-11.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-11_10C4C929.wem</Path>
+						</File>
+						<File Id="207351630" Language="SFX">
+							<ShortName>Sounds\Tassen_-04.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-04_10C4C929.wem</Path>
+						</File>
+						<File Id="228880195" Language="SFX">
+							<ShortName>Sounds\Tassen_-05.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-05_10C4C929.wem</Path>
+						</File>
+						<File Id="233586645" Language="SFX">
+							<ShortName>Sounds\Tassen_-18.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-18_10C4C929.wem</Path>
+						</File>
+						<File Id="274962289" Language="SFX">
+							<ShortName>Sounds\Tassen_-12.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-12_10C4C929.wem</Path>
+						</File>
+						<File Id="304027179" Language="SFX">
+							<ShortName>Sounds\Tassen_-24.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-24_10C4C929.wem</Path>
+						</File>
+						<File Id="322700213" Language="SFX">
+							<ShortName>Sounds\Tassen_-21.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-21_10C4C929.wem</Path>
+						</File>
+						<File Id="399620369" Language="SFX">
+							<ShortName>Sounds\Tassen_-15.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-15_10C4C929.wem</Path>
+						</File>
+						<File Id="408684526" Language="SFX">
+							<ShortName>Sounds\Tassen_-17.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-17_10C4C929.wem</Path>
+						</File>
+						<File Id="421641820" Language="SFX">
+							<ShortName>Sounds\Tassen_-07.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-07_10C4C929.wem</Path>
+						</File>
+						<File Id="452973581" Language="SFX">
+							<ShortName>Sounds\Tassen_-01.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-01_10C4C929.wem</Path>
 						</File>
 						<File Id="543042715" Language="SFX">
 							<ShortName>Voicelines\Mug__I_should_really_drink_less_Coffee.wav</ShortName>
 							<Path>SFX\Voicelines\Mug__I_should_really_drink_less_Coffee_10C4C929.wem</Path>
 						</File>
+						<File Id="573677201" Language="SFX">
+							<ShortName>Sounds\Tassen_-08.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-08_10C4C929.wem</Path>
+						</File>
+						<File Id="629924824" Language="SFX">
+							<ShortName>Sounds\Tassen_-19.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-19_10C4C929.wem</Path>
+						</File>
+						<File Id="683328118" Language="SFX">
+							<ShortName>Sounds\Tassen_-23.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-23_10C4C929.wem</Path>
+						</File>
+						<File Id="688148033" Language="SFX">
+							<ShortName>Sounds\Tassen_-16.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-16_10C4C929.wem</Path>
+						</File>
 						<File Id="736687876" Language="SFX">
 							<ShortName>Voicelines\Mug__All_empty_just_like_me.wav</ShortName>
 							<Path>SFX\Voicelines\Mug__All_empty_just_like_me_10C4C929.wem</Path>
 						</File>
-						<File Id="1002670160" Language="SFX">
-							<ShortName>Voicelines\Mug__When_will_I_finally_get_something_done.wav</ShortName>
-							<Path>SFX\Voicelines\Mug__When_will_I_finally_get_something_done_10C4C929.wem</Path>
+						<File Id="762204515" Language="SFX">
+							<ShortName>Sounds\Tassen_-06.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-06_10C4C929.wem</Path>
+						</File>
+						<File Id="769756084" Language="SFX">
+							<ShortName>Sounds\Tassen_.wav</ShortName>
+							<Path>SFX\Sounds\Tassen__10C4C929.wem</Path>
+						</File>
+						<File Id="870997069" Language="SFX">
+							<ShortName>Sounds\Tassen_-02.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-02_10C4C929.wem</Path>
+						</File>
+						<File Id="888150317" Language="SFX">
+							<ShortName>Sounds\Tassen_-10.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-10_10C4C929.wem</Path>
+						</File>
+						<File Id="902293874" Language="SFX">
+							<ShortName>Sounds\Tassen_-20.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-20_10C4C929.wem</Path>
+						</File>
+						<File Id="974399308" Language="SFX">
+							<ShortName>Sounds\Tassen_-09.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-09_10C4C929.wem</Path>
+						</File>
+						<File Id="1014541253" Language="SFX">
+							<ShortName>Sounds\Tassen_-13.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-13_10C4C929.wem</Path>
+						</File>
+						<File Id="1038988468" Language="SFX">
+							<ShortName>Sounds\Tassen_-14.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-14_10C4C929.wem</Path>
+						</File>
+						<File Id="1057026989" Language="SFX">
+							<ShortName>Sounds\Tassen_-22.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-22_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="233964938" Name="Interaction_Newspaper_CCiM" ObjectPath="\Events\Default Work Unit\Interaction_Newspaper_CCiM" DurationType="OneShot" DurationMin="2.212585" DurationMax="3.751020">
+				<Event Id="3783922612" Name="Interaction_Mug_Sound_Only" ObjectPath="\Events\Default Work Unit\Interaction_Mug_Sound_Only" DurationType="OneShot" DurationMin="0.305240" DurationMax="1.491210">
 					<IncludedMemoryFiles>
-						<File Id="246172809" Language="SFX">
-							<ShortName>Voicelines\Newspaper_CCiM__The_biker_was_fine.wav</ShortName>
-							<Path>SFX\Voicelines\Newspaper_CCiM__The_biker_was_fine_10C4C929.wem</Path>
+						<File Id="35112935" Language="SFX">
+							<ShortName>Sounds\Tassen_-03.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-03_10C4C929.wem</Path>
 						</File>
+						<File Id="138163342" Language="SFX">
+							<ShortName>Sounds\Tassen_-11.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-11_10C4C929.wem</Path>
+						</File>
+						<File Id="207351630" Language="SFX">
+							<ShortName>Sounds\Tassen_-04.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-04_10C4C929.wem</Path>
+						</File>
+						<File Id="228880195" Language="SFX">
+							<ShortName>Sounds\Tassen_-05.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-05_10C4C929.wem</Path>
+						</File>
+						<File Id="233586645" Language="SFX">
+							<ShortName>Sounds\Tassen_-18.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-18_10C4C929.wem</Path>
+						</File>
+						<File Id="274962289" Language="SFX">
+							<ShortName>Sounds\Tassen_-12.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-12_10C4C929.wem</Path>
+						</File>
+						<File Id="304027179" Language="SFX">
+							<ShortName>Sounds\Tassen_-24.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-24_10C4C929.wem</Path>
+						</File>
+						<File Id="322700213" Language="SFX">
+							<ShortName>Sounds\Tassen_-21.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-21_10C4C929.wem</Path>
+						</File>
+						<File Id="399620369" Language="SFX">
+							<ShortName>Sounds\Tassen_-15.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-15_10C4C929.wem</Path>
+						</File>
+						<File Id="408684526" Language="SFX">
+							<ShortName>Sounds\Tassen_-17.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-17_10C4C929.wem</Path>
+						</File>
+						<File Id="421641820" Language="SFX">
+							<ShortName>Sounds\Tassen_-07.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-07_10C4C929.wem</Path>
+						</File>
+						<File Id="452973581" Language="SFX">
+							<ShortName>Sounds\Tassen_-01.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-01_10C4C929.wem</Path>
+						</File>
+						<File Id="573677201" Language="SFX">
+							<ShortName>Sounds\Tassen_-08.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-08_10C4C929.wem</Path>
+						</File>
+						<File Id="629924824" Language="SFX">
+							<ShortName>Sounds\Tassen_-19.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-19_10C4C929.wem</Path>
+						</File>
+						<File Id="683328118" Language="SFX">
+							<ShortName>Sounds\Tassen_-23.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-23_10C4C929.wem</Path>
+						</File>
+						<File Id="688148033" Language="SFX">
+							<ShortName>Sounds\Tassen_-16.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-16_10C4C929.wem</Path>
+						</File>
+						<File Id="762204515" Language="SFX">
+							<ShortName>Sounds\Tassen_-06.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-06_10C4C929.wem</Path>
+						</File>
+						<File Id="769756084" Language="SFX">
+							<ShortName>Sounds\Tassen_.wav</ShortName>
+							<Path>SFX\Sounds\Tassen__10C4C929.wem</Path>
+						</File>
+						<File Id="870997069" Language="SFX">
+							<ShortName>Sounds\Tassen_-02.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-02_10C4C929.wem</Path>
+						</File>
+						<File Id="888150317" Language="SFX">
+							<ShortName>Sounds\Tassen_-10.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-10_10C4C929.wem</Path>
+						</File>
+						<File Id="902293874" Language="SFX">
+							<ShortName>Sounds\Tassen_-20.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-20_10C4C929.wem</Path>
+						</File>
+						<File Id="974399308" Language="SFX">
+							<ShortName>Sounds\Tassen_-09.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-09_10C4C929.wem</Path>
+						</File>
+						<File Id="1014541253" Language="SFX">
+							<ShortName>Sounds\Tassen_-13.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-13_10C4C929.wem</Path>
+						</File>
+						<File Id="1038988468" Language="SFX">
+							<ShortName>Sounds\Tassen_-14.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-14_10C4C929.wem</Path>
+						</File>
+						<File Id="1057026989" Language="SFX">
+							<ShortName>Sounds\Tassen_-22.wav</ShortName>
+							<Path>SFX\Sounds\Tassen_-22_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="233964938" Name="Interaction_Newspaper_CCiM" ObjectPath="\Events\Default Work Unit\Interaction_Newspaper_CCiM" DurationType="OneShot" DurationMin="2.212585" DurationMax="2.994648">
+					<IncludedMemoryFiles>
 						<File Id="568626608" Language="SFX">
 							<ShortName>Voicelines\Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front.wav</ShortName>
 							<Path>SFX\Voicelines\Newspaper_CCiM__Why_did_I_let_her_sit_in_the_front_10C4C929.wem</Path>
@@ -185,19 +377,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="385821004" Name="Interaction_Newspaper_TCC" ObjectPath="\Events\Default Work Unit\Interaction_Newspaper_TCC" DurationType="OneShot" DurationMin="1.485578" DurationMax="4.575873">
+				<Event Id="385821004" Name="Interaction_Newspaper_TCC" ObjectPath="\Events\Default Work Unit\Interaction_Newspaper_TCC" DurationType="OneShot" DurationMin="1.771270" DurationMax="3.751020">
 					<IncludedMemoryFiles>
 						<File Id="124993505" Language="SFX">
 							<ShortName>Voicelines\Newspaper_TCC__It_should_have_been_me_instead.wav</ShortName>
 							<Path>SFX\Voicelines\Newspaper_TCC__It_should_have_been_me_instead_10C4C929.wem</Path>
 						</File>
-						<File Id="183415807" Language="SFX">
-							<ShortName>Voicelines\Newspaper_TCC__The_accident_it_was_my_fault.wav</ShortName>
-							<Path>SFX\Voicelines\Newspaper_TCC__The_accident_it_was_my_fault_10C4C929.wem</Path>
-						</File>
-						<File Id="303911190" Language="SFX">
-							<ShortName>Voicelines\Newspaper_TCC__Why_did_I_kill_her.wav</ShortName>
-							<Path>SFX\Voicelines\Newspaper_TCC__Why_did_I_kill_her_10C4C929.wem</Path>
+						<File Id="246172809" Language="SFX">
+							<ShortName>Voicelines\Newspaper_CCiM__The_biker_was_fine.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_CCiM__The_biker_was_fine_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -282,6 +470,202 @@
 						<File Id="926755629" Language="SFX">
 							<ShortName>Voicelines\Plant__When_was_the_last_time_i_watered_you.wav</ShortName>
 							<Path>SFX\Voicelines\Plant__When_was_the_last_time_i_watered_you_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2110143099" Name="Switch_Fill" ObjectPath="\Events\Default Work Unit\Switch_Fill" DurationType="OneShot" DurationMin="0.640247" DurationMax="3.292608">
+					<IncludedMemoryFiles>
+						<File Id="38687384" Language="SFX">
+							<ShortName>Sounds\Myst_-02.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-02_10C4C929.wem</Path>
+						</File>
+						<File Id="174407460" Language="SFX">
+							<ShortName>Sounds\Myst_-17.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-17_10C4C929.wem</Path>
+						</File>
+						<File Id="210544287" Language="SFX">
+							<ShortName>Sounds\Myst_-14.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-14_10C4C929.wem</Path>
+						</File>
+						<File Id="218294654" Language="SFX">
+							<ShortName>Sounds\Myst_-01.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-01_10C4C929.wem</Path>
+						</File>
+						<File Id="281418785" Language="SFX">
+							<ShortName>Sounds\Myst_-10.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-10_10C4C929.wem</Path>
+						</File>
+						<File Id="340025222" Language="SFX">
+							<ShortName>Sounds\Myst_-03.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-03_10C4C929.wem</Path>
+						</File>
+						<File Id="359084644" Language="SFX">
+							<ShortName>Sounds\Myst_-15.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-15_10C4C929.wem</Path>
+						</File>
+						<File Id="371269673" Language="SFX">
+							<ShortName>Sounds\Myst_-05.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-05_10C4C929.wem</Path>
+						</File>
+						<File Id="387230844" Language="SFX">
+							<ShortName>Sounds\Myst_.wav</ShortName>
+							<Path>SFX\Sounds\Myst__10C4C929.wem</Path>
+						</File>
+						<File Id="453115971" Language="SFX">
+							<ShortName>Sounds\Myst_-16.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-16_10C4C929.wem</Path>
+						</File>
+						<File Id="517934934" Language="SFX">
+							<ShortName>Sounds\Myst_-13.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-13_10C4C929.wem</Path>
+						</File>
+						<File Id="704004558" Language="SFX">
+							<ShortName>Sounds\Myst_-11.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-11_10C4C929.wem</Path>
+						</File>
+						<File Id="726983372" Language="SFX">
+							<ShortName>Sounds\Myst_-08.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-08_10C4C929.wem</Path>
+						</File>
+						<File Id="788118717" Language="SFX">
+							<ShortName>Sounds\Myst_-12.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-12_10C4C929.wem</Path>
+						</File>
+						<File Id="823036545" Language="SFX">
+							<ShortName>Sounds\Myst_-06.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-06_10C4C929.wem</Path>
+						</File>
+						<File Id="833548929" Language="SFX">
+							<ShortName>Sounds\Myst_-09.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-09_10C4C929.wem</Path>
+						</File>
+						<File Id="890924312" Language="SFX">
+							<ShortName>Sounds\Myst_-07.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-07_10C4C929.wem</Path>
+						</File>
+						<File Id="906414213" Language="SFX">
+							<ShortName>Sounds\Myst_-04.wav</ShortName>
+							<Path>SFX\Sounds\Myst_-04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2935388662" Name="Switch_Paper" ObjectPath="\Events\Default Work Unit\Switch_Paper" DurationType="OneShot" DurationMin="2.365036" DurationMax="11.655749">
+					<IncludedMemoryFiles>
+						<File Id="165635365" Language="SFX">
+							<ShortName>Sounds\Papier_-04.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-04_10C4C929.wem</Path>
+						</File>
+						<File Id="247820173" Language="SFX">
+							<ShortName>Sounds\Papier_-02.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-02_10C4C929.wem</Path>
+						</File>
+						<File Id="255124036" Language="SFX">
+							<ShortName>Sounds\Papier_-09.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-09_10C4C929.wem</Path>
+						</File>
+						<File Id="270185720" Language="SFX">
+							<ShortName>Sounds\Papier_-03.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-03_10C4C929.wem</Path>
+						</File>
+						<File Id="591695146" Language="SFX">
+							<ShortName>Sounds\Papier_-07.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-07_10C4C929.wem</Path>
+						</File>
+						<File Id="642646583" Language="SFX">
+							<ShortName>Sounds\Papier_-12.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-12_10C4C929.wem</Path>
+						</File>
+						<File Id="689138156" Language="SFX">
+							<ShortName>Sounds\Papier_-10.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-10_10C4C929.wem</Path>
+						</File>
+						<File Id="696822761" Language="SFX">
+							<ShortName>Sounds\Papier_-11.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-11_10C4C929.wem</Path>
+						</File>
+						<File Id="856614147" Language="SFX">
+							<ShortName>Sounds\Papier_-01.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-01_10C4C929.wem</Path>
+						</File>
+						<File Id="905564050" Language="SFX">
+							<ShortName>Sounds\Papier_-05.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="126537269" Name="Switch_Paper_Short" ObjectPath="\Events\Default Work Unit\Switch_Paper_Short" DurationType="OneShot" DurationMin="1.204179" DurationMax="5.714128">
+					<IncludedMemoryFiles>
+						<File Id="312361865" Language="SFX">
+							<ShortName>Sounds\Papier_.wav</ShortName>
+							<Path>SFX\Sounds\Papier__10C4C929.wem</Path>
+						</File>
+						<File Id="393403794" Language="SFX">
+							<ShortName>Sounds\Papier_-08.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-08_10C4C929.wem</Path>
+						</File>
+						<File Id="401018798" Language="SFX">
+							<ShortName>Sounds\Papier_-06.wav</ShortName>
+							<Path>SFX\Sounds\Papier_-06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1082295148" Name="Switch_Table" ObjectPath="\Events\Default Work Unit\Switch_Table" DurationType="OneShot" DurationMin="1.159484" DurationMax="7.330244">
+					<IncludedMemoryFiles>
+						<File Id="364295094" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-04.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-04_10C4C929.wem</Path>
+						</File>
+						<File Id="403073005" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-08.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-08_10C4C929.wem</Path>
+						</File>
+						<File Id="555186473" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-09.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-09_10C4C929.wem</Path>
+						</File>
+						<File Id="638752965" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-01.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-01_10C4C929.wem</Path>
+						</File>
+						<File Id="652059356" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-13.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-13_10C4C929.wem</Path>
+						</File>
+						<File Id="701480571" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-06.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-06_10C4C929.wem</Path>
+						</File>
+						<File Id="728685994" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch__10C4C929.wem</Path>
+						</File>
+						<File Id="768560864" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-12.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-12_10C4C929.wem</Path>
+						</File>
+						<File Id="772409869" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-10.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-10_10C4C929.wem</Path>
+						</File>
+						<File Id="796032603" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-11.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-11_10C4C929.wem</Path>
+						</File>
+						<File Id="852267889" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-05.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-05_10C4C929.wem</Path>
+						</File>
+						<File Id="856398789" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-07.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-07_10C4C929.wem</Path>
+						</File>
+						<File Id="858436786" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-03.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-03_10C4C929.wem</Path>
+						</File>
+						<File Id="914491168" Language="SFX">
+							<ShortName>Sounds\Schreibtisch_-02.wav</ShortName>
+							<Path>SFX\Sounds\Schreibtisch_-02_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

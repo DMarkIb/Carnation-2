@@ -82,7 +82,17 @@
 				</Event>
 				<Event Name="Interaction_Mug" ID="{C4840FD0-37A6-449B-B23D-9EF8DBC19195}">
 					<ChildrenList>
+						<Action Name="" ID="{8A352DC5-7E0D-46B5-A34C-96973399320F}" ShortID="869269053">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mugs" ID="{D651CCBB-E673-4F0A-941B-68714723C061}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{8D23BDF4-B2A2-45B8-B582-74785FFC9621}" ShortID="426289769">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Mug_Voicelines" ID="{0EDEAB71-442D-4333-A01F-68D6D169F312}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
@@ -141,6 +151,61 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Picture_Daughter_Voicelines" ID="{B2CB47B9-DDA5-4580-9FDD-42FAFE892987}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Interaction_Mug_Sound_Only" ID="{9497A338-6565-44E8-8A86-20737444FE43}">
+					<ChildrenList>
+						<Action Name="" ID="{E745EBA2-40B7-4461-BBEE-8075D20DBC59}" ShortID="290629105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mugs" ID="{D651CCBB-E673-4F0A-941B-68714723C061}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch_Paper" ID="{347399CB-62A9-4151-BDF2-3918BA3273EE}">
+					<ChildrenList>
+						<Action Name="" ID="{4895E899-1256-4CB6-9864-87A870B6B284}" ShortID="261756269">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Paper" ID="{41D8A876-A70A-47D0-8C5C-4D28D71F84D7}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch_Table" ID="{6FB5D09C-B00F-4C5E-AFDA-AE963FB18E08}">
+					<ChildrenList>
+						<Action Name="" ID="{75AC63F1-9822-4467-B9A3-B9F5BEE93707}" ShortID="258490108">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Table" ID="{BB736FA6-9F4F-467C-8DA1-2A8BFFBD29AD}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch_Fill" ID="{9CF46FAC-495F-4260-9BC0-B811BAAD381E}">
+					<ChildrenList>
+						<Action Name="" ID="{1517BE85-7592-49C9-9BF4-982FCC52A27F}" ShortID="41815314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Myst" ID="{3B4DFC27-37B9-48BF-940D-CC0148C9F645}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch_Paper_Short" ID="{B970238D-6256-4196-A473-486C776F3BC7}">
+					<ChildrenList>
+						<Action Name="" ID="{A342250E-A817-49A6-948D-8F9D58538B11}" ShortID="701328991">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Paper_Short" ID="{4998A4FB-6DD6-4F6A-8225-04B0C293F95E}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

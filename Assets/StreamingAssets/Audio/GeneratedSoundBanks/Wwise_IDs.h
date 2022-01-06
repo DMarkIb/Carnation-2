@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID INTERACTION_GUITAR = 2574017784U;
         static const AkUniqueID INTERACTION_KNIFE = 3913799797U;
         static const AkUniqueID INTERACTION_MUG = 2826267179U;
+        static const AkUniqueID INTERACTION_MUG_SOUND_ONLY = 3783922612U;
         static const AkUniqueID INTERACTION_NEWSPAPER_CCIM = 233964938U;
         static const AkUniqueID INTERACTION_NEWSPAPER_TCC = 385821004U;
         static const AkUniqueID INTERACTION_PICTURE_DAUGHTER = 2530462639U;
@@ -26,6 +27,10 @@ namespace AK
         static const AkUniqueID INTERACTION_PICTURE_SHELF = 2143311869U;
         static const AkUniqueID INTERACTION_PILLS = 3913038626U;
         static const AkUniqueID INTERACTION_PLANT = 1285051097U;
+        static const AkUniqueID SWITCH_FILL = 2110143099U;
+        static const AkUniqueID SWITCH_PAPER = 2935388662U;
+        static const AkUniqueID SWITCH_PAPER_SHORT = 126537269U;
+        static const AkUniqueID SWITCH_TABLE = 1082295148U;
     } // namespace EVENTS
 
     namespace BANKS
