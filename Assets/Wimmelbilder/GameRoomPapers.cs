@@ -15,7 +15,8 @@ public class GameRoomPapers : MonoBehaviour
     {
         gameObject.GetComponent<Outline>().enabled = false;
     }
-
+    
+    //Zeitung wird erst dann in der Szene (durch Lerp transformation) sichtbar, wenn das Coffeetable WM gespielt wurde
     void Update()
     {
         if (GameObject.Find("ETObj") == null && Active == false)
@@ -40,7 +41,7 @@ public class GameRoomPapers : MonoBehaviour
             gameObject.GetComponent<Outline>().enabled = false;
         }
     }
-
+    //Durch anklicken kann man die Zeitung erneut betrachten und die Voicelines erneut hören
     public void OnMouseDown()
     {
         paperCam.GetComponent<Camera>().enabled = true;

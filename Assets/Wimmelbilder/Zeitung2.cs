@@ -18,7 +18,7 @@ public class Zeitung2 : MonoBehaviour
     {
 
     }
-
+    //Siehe Zeitung.cs für Kommentare
     public void OnMouseEnter()
     {
         if (GameObject.Find("ETObj2") == null && switched == false)

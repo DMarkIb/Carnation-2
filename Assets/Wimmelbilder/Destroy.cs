@@ -27,7 +27,7 @@ public class Destroy : MonoBehaviour
     {
         gameObject.GetComponent<Outline>().enabled = false;
     }
-
+    //Wenn object angeklcikt wird, wird es "weg bewegt" und nach 2 sec automatisch gelöscht, aber nur objecte die den Tag haben auch zerstört zu werden
     public void OnMouseDown()
     {
         RaycastHit hit;

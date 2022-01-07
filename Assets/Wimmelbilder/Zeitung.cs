@@ -19,6 +19,7 @@ public class Zeitung : MonoBehaviour
         
     }
 
+    //Outlines erst sichtbar, wenn alle objecte weg bewegt und dann automatisch gelöscht wurden
     public void OnMouseEnter()
     {
         if (GameObject.Find("ETObj") == null && switched == false)
@@ -39,7 +40,7 @@ public class Zeitung : MonoBehaviour
     {
         if (GameObject.Find("ETObj") == null && switched == false)
         {
-            CameraSwitch();
+            CameraSwitch(); //Wenn Zeitung angeklickt und WM erledigt wurde, switchted die Camera auf ein Close up
         }
     }
 
