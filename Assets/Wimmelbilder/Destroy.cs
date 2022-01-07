@@ -38,14 +38,13 @@ public class Destroy : MonoBehaviour
             {
                 transform.position = Vector3.Lerp(From.position, To.position, 0.3f);
                 StartCoroutine(waiterD());
-                //Destroy(gameObject);
             }
         }
     }
 
     IEnumerator waiterD()
     {
-        yield return new WaitForSecondsRealtime(3);
+        yield return new WaitForSecondsRealtime(2);
         Destroy(gameObject);
     }
 }

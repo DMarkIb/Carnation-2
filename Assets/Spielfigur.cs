@@ -12,17 +12,11 @@ public class Spielfigur : MonoBehaviour
     float distanceToTarget;
     Vector3 Ziel;
     float clicktime = 0;
-    //float clickdelay = 1f;
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.speed = 1f;
-        //agent.destination = new Vector3(0, 0, 0);
-
     }
 
     void extraRotation()
@@ -32,7 +26,6 @@ public class Spielfigur : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Player.GetBool("InBewegung"))

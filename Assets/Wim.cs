@@ -30,13 +30,6 @@ public class Wim : MonoBehaviour
         clicked++;
         clicktime = Time.time;
         Debug.Log("ClickWim");
-        //if (Fertig)
-        //{
-        //    cam1.GetComponent<Camera>().enabled = false;
-        //    maincam.GetComponent<Camera>().enabled = true;
-        //    Spieler.SetActive(true);
-        //    GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = true;
-        //}
     }
 
     public void OnMouseEnter()
@@ -57,7 +50,6 @@ public class Wim : MonoBehaviour
         {
             clicked = 0;
             clicktime = 0;
-            Debug.Log("Boob");
             doppelklick = true;
         }
         else if (clicked > 2 || Time.time - clicktime > 1)

@@ -16,7 +16,6 @@ public class GameRoomPapers : MonoBehaviour
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (GameObject.Find("ETObj") == null && Active == false)

@@ -21,34 +21,25 @@ public class Zeitung3 : MonoBehaviour
 
     public void OnMouseEnter()
     {
-        if (switched == false)
+        if (GameObject.Find("ETObj3") == null && switched == false)
         {
-            if (GameObject.Find("ETObj3") == null)
-            {
-                gameObject.GetComponent<Outline>().enabled = true;
-            }
+            gameObject.GetComponent<Outline>().enabled = true;
         }
     }
 
     public void OnMouseExit()
     {
-        if (switched == false)
+        if (GameObject.Find("ETObj3") == null && switched == false)
         {
-            if (GameObject.Find("ETObj3") == null)
-            {
-                gameObject.GetComponent<Outline>().enabled = false;
-            }
+            gameObject.GetComponent<Outline>().enabled = false;
         }
     }
 
     public void OnMouseDown()
     {
-        if (switched == false)
+        if (GameObject.Find("ETObj3") == null && switched == false)
         {
-            if (GameObject.Find("ETObj3") == null)
-            {
-                CameraSwitch();
-            }
+            CameraSwitch();
         }
     }
 
