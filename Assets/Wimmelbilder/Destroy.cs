@@ -5,6 +5,8 @@ using UnityEngine;
 public class Destroy : MonoBehaviour
 {
     public Camera Cam;
+    public Transform From;
+    public Transform To;
 
     public void Start()
     {
@@ -34,8 +36,16 @@ public class Destroy : MonoBehaviour
         {
             if (hit.collider.CompareTag("Destroy"))
             {
-                Destroy(gameObject);
+                transform.position = Vector3.Lerp(From.position, To.position, 0.3f);
+                StartCoroutine(waiterD());
+                //Destroy(gameObject);
             }
         }
+    }
+
+    IEnumerator waiterD()
+    {
+        yield return new WaitForSecondsRealtime(3);
+        Destroy(gameObject);
     }
 }

@@ -2,39 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Zeitung : MonoBehaviour
+public class Zeitung3 : MonoBehaviour
 {
-    public Camera CT;
-    public Camera paperCam;
+    public Camera RC;
+    public Camera paper3Cam;
     private bool switched = false;
 
     void Start()
     {
-        paperCam.GetComponent<Camera>().enabled = false;
+        paper3Cam.GetComponent<Camera>().enabled = false;
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
     void Update()
     {
-        
+
     }
 
     public void OnMouseEnter()
     {
         if (switched == false)
         {
-            if (GameObject.Find("ETObj") == null)
+            if (GameObject.Find("ETObj3") == null)
             {
                 gameObject.GetComponent<Outline>().enabled = true;
             }
         }
     }
-    
+
     public void OnMouseExit()
     {
         if (switched == false)
         {
-            if (GameObject.Find("ETObj") == null)
+            if (GameObject.Find("ETObj3") == null)
             {
                 gameObject.GetComponent<Outline>().enabled = false;
             }
@@ -45,7 +45,7 @@ public class Zeitung : MonoBehaviour
     {
         if (switched == false)
         {
-            if (GameObject.Find("ETObj") == null)
+            if (GameObject.Find("ETObj3") == null)
             {
                 CameraSwitch();
             }
@@ -54,8 +54,8 @@ public class Zeitung : MonoBehaviour
 
     private void CameraSwitch()
     {
-        paperCam.GetComponent<Camera>().enabled = true;
-        CT.GetComponent<Camera>().enabled = false;
+        paper3Cam.GetComponent<Camera>().enabled = true;
+        RC.GetComponent<Camera>().enabled = false;
         switched = true;
     }
 }
