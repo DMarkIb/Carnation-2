@@ -19,6 +19,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3900887599	Interaction			\Default Work Unit\Interaction	
 	3913038626	Interaction_Pills			\Default Work Unit\Interaction_Pills	
 	3913799797	Interaction_Knife			\Default Work Unit\Interaction_Knife	
+	4118481680	Interaction_lwyf			\Default Work Unit\Interaction_lwyf	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5440349	Schritt_-09	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Schritte\Schritt_-09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-09		50038
@@ -34,6 +35,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	165635365	Papier_-04	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Papier_-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Paper\Papier_-04		1453928
 	174407460	Myst_-17	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Myst_-17_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Myst\Myst_-17		90092
 	182646678	Pills__Not_as_if_these_work_anyway	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Pills__Not_as_if_these_work_anyway_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Pills_Voicelines\Pills__Not_as_if_these_work_anyway		424372
+	183415807	Newspaper_TCC__The_accident_it_was_my_fault	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Newspaper_TCC__The_accident_it_was_my_fault_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Newspaper_Iwyf\Newspaper_TCC__The_accident_it_was_my_fault		807248
 	201573695	Schritt_-02	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Schritte\Schritt_-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-02		50038
 	207351630	Tassen_-04	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Tassen_-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Mugs\Tassen_-04		150080
 	210544287	Myst_-14	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Myst_-14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Myst\Myst_-14		69764
@@ -50,6 +52,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	277562620	Fridge__Half_of_this_is_rotten	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Fridge__Half_of_this_is_rotten_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Fridge_Voicelines\Fridge__Half_of_this_is_rotten		619920
 	281418785	Myst_-10	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Myst_-10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Myst\Myst_-10		78472
 	287221544	Plant__I_bet_you_are_just_waiting_to_die	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Plant__I_bet_you_are_just_waiting_to_die_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Plant_Voicelines\Plant__I_bet_you_are_just_waiting_to_die		428424
+	303911190	Newspaper_TCC__Why_did_I_kill_her	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Voicelines\Newspaper_TCC__Why_did_I_kill_her_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Newspaper_Iwyf\Newspaper_TCC__Why_did_I_kill_her		262120
 	304027179	Tassen_-24	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Tassen_-24_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Mugs\Tassen_-24		89940
 	312361865	Papier_	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Sounds\Papier__10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Paper_Short\Papier_		712808
 	313118413	Schritt_-12	D:\Uni Projekte\Github\Carnation-2\Carnation-2_WwiseProject\.cache\Windows\SFX\Schritte\Schritt_-12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\schritte\Schritt_-12		55750
