@@ -23,7 +23,7 @@ public class PlayerInstructions : MonoBehaviour
             PlayerInstructionsElement.text = Instructions;
             TextChanged1 = true;
         }
-        if (GameObject.Find("ETObj") && GameObject.Find("ETObj2") == null && TextChanged2 == false)
+        if (GameObject.Find("ETObj") == null && GameObject.Find("ETObj2") == null && TextChanged2 == false)
         {
             Instructions = "Didnt I see a third newspaper in the shelf?";
             PlayerInstructionsElement.text = Instructions;
