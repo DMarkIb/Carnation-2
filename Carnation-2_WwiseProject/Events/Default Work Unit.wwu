@@ -233,6 +233,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Interaction_Newspaper_iwamf" ID="{247F640E-3B85-448E-B29C-0C2F4DDB19B9}">
+					<ChildrenList>
+						<Action Name="" ID="{8DE71D07-3B0B-4FB0-8D7A-FE1A2E9092F6}" ShortID="23403186">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Newspaper_Iwyf" ID="{94AC1E48-6249-409A-8046-FC3B3F9D2DE9}" WorkUnitID="{3225AC2A-0BDB-441E-87AF-271C7C182179}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

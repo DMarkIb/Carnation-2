@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="4130367810">
+		<SoundBank Id="2228651116" Language="SFX" Hash="3974756012">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -182,18 +182,6 @@
 						<File Id="865744582" Language="SFX">
 							<ShortName>Voicelines\Knife__Would_be_better_for_everybody.wav</ShortName>
 							<Path>SFX\Voicelines\Knife__Would_be_better_for_everybody_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="4118481680" Name="Interaction_lwyf" ObjectPath="\Events\Default Work Unit\Interaction_lwyf" DurationType="OneShot" DurationMin="1.485578" DurationMax="4.575873">
-					<IncludedMemoryFiles>
-						<File Id="183415807" Language="SFX">
-							<ShortName>Voicelines\Newspaper_TCC__The_accident_it_was_my_fault.wav</ShortName>
-							<Path>SFX\Voicelines\Newspaper_TCC__The_accident_it_was_my_fault_10C4C929.wem</Path>
-						</File>
-						<File Id="303911190" Language="SFX">
-							<ShortName>Voicelines\Newspaper_TCC__Why_did_I_kill_her.wav</ShortName>
-							<Path>SFX\Voicelines\Newspaper_TCC__Why_did_I_kill_her_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

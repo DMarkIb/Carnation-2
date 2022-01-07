@@ -11,6 +11,7 @@
 						<ObjectRef Name="Interaction_Newspaper_TCC" ID="{8BE926BF-6E28-4222-906C-A428322D30ED}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Switch_Fill" ID="{9CF46FAC-495F-4260-9BC0-B811BAAD381E}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interaction_Picture_Shelf" ID="{F4BB5D6E-BF5A-4313-B3AC-A60E35C75C02}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interaction_Newspaper_iwamf" ID="{247F640E-3B85-448E-B29C-0C2F4DDB19B9}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interaction_Mug" ID="{C4840FD0-37A6-449B-B23D-9EF8DBC19195}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{2B7D0E60-67BC-44C8-AA70-683FBB160FC8}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interaction_Knife" ID="{14F1E822-4B2F-44D8-9926-41BE392EAB1B}" WorkUnitID="{8625111C-64E1-4E9A-9A9D-6BE11A0526BB}" Origin="Manual" Filter="7"/>

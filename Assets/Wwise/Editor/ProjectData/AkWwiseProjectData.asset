@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9a81895de7fe6a459d20f4acddc9cd45
     GuidInternal: 
-    m_lastTime: -8585601630231733056
+    m_lastTime: -8585600232304536257
     List:
     - name: Main_Soundbank
       guid: 9cbdcd8fcc393943abb43b0c977fa6e3
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1c112586e1649a4e9a9d6be11a0526bb
     GuidInternal: 
-    m_lastTime: -8585601630231590009
+    m_lastTime: -8585600232304406604
     List:
     - name: Door
       guid: 600e7d2bbc67c844aa70683fbb160fc8
@@ -249,6 +249,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.994648
       minDuration: 2.212585
+    - name: Interaction_Newspaper_iwamf
+      guid: 0e647f24853b8e44b29c0c2f4ddb19b9
+      id: 2122253030
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1c112586e1649a4e9a9d6be11a0526bb
+      - ElementName: Interaction_Newspaper_iwamf
+        ObjectType: 3
+        guid: 0e647f24853b8e44b29c0c2f4ddb19b9
+      Path: Events\Default Work Unit\Interaction_Newspaper_iwamf
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Interaction_Newspaper_TCC
       guid: bf26e98b286e2242906ca428322d30ed
       id: 385821004

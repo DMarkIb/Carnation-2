@@ -19,7 +19,6 @@ namespace AK
         static const AkUniqueID INTERACTION_FRIDGE = 854870849U;
         static const AkUniqueID INTERACTION_GUITAR = 2574017784U;
         static const AkUniqueID INTERACTION_KNIFE = 3913799797U;
-        static const AkUniqueID INTERACTION_LWYF = 4118481680U;
         static const AkUniqueID INTERACTION_MUG = 2826267179U;
         static const AkUniqueID INTERACTION_MUG_SOUND_ONLY = 3783922612U;
         static const AkUniqueID INTERACTION_NEWSPAPER_CCIM = 233964938U;
