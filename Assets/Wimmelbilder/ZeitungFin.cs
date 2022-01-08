@@ -9,13 +9,11 @@ public class ZeitungFin : MonoBehaviour
 
     public GameObject Spieler;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -23,7 +21,6 @@ public class ZeitungFin : MonoBehaviour
 
     public void OnMouseDown()
     {
-        Debug.Log("Cam Switch");
         paperCam.GetComponent<Camera>().enabled = false;
         mainCam.GetComponent<Camera>().enabled = true;
         Spieler.SetActive(true);

@@ -40,14 +40,9 @@ public class Zeitung : MonoBehaviour
     {
         if (GameObject.Find("ETObj") == null && switched == false)
         {
-            CameraSwitch(); //Wenn Zeitung angeklickt und WM erledigt wurde, switchted die Camera auf ein Close up
+            paperCam.GetComponent<Camera>().enabled = true; //Wenn Zeitung angeklickt und WM erledigt wurde, switchted die Camera auf ein Close up
+            CT.GetComponent<Camera>().enabled = false;
+            switched = true; 
         }
-    }
-
-    private void CameraSwitch()
-    {
-        paperCam.GetComponent<Camera>().enabled = true;
-        CT.GetComponent<Camera>().enabled = false;
-        switched = true;
     }
 }
