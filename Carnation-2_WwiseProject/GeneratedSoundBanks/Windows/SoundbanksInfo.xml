@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2228651116" Language="SFX" Hash="3974756012">
+		<SoundBank Id="2228651116" Language="SFX" Hash="4291403753">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -410,6 +410,18 @@
 						<File Id="1033449725" Language="SFX">
 							<ShortName>Voicelines\Newspaer_CCiM__At_least_I_didnt_kill_him_too.wav</ShortName>
 							<Path>SFX\Voicelines\Newspaer_CCiM__At_least_I_didnt_kill_him_too_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2122253030" Name="Interaction_Newspaper_iwamf" ObjectPath="\Events\Default Work Unit\Interaction_Newspaper_iwamf" DurationType="OneShot" DurationMin="1.485578" DurationMax="4.575873">
+					<IncludedMemoryFiles>
+						<File Id="183415807" Language="SFX">
+							<ShortName>Voicelines\Newspaper_TCC__The_accident_it_was_my_fault.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_TCC__The_accident_it_was_my_fault_10C4C929.wem</Path>
+						</File>
+						<File Id="303911190" Language="SFX">
+							<ShortName>Voicelines\Newspaper_TCC__Why_did_I_kill_her.wav</ShortName>
+							<Path>SFX\Voicelines\Newspaper_TCC__Why_did_I_kill_her_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

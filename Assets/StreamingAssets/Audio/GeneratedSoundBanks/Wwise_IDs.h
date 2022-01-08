@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID INTERACTION_MUG = 2826267179U;
         static const AkUniqueID INTERACTION_MUG_SOUND_ONLY = 3783922612U;
         static const AkUniqueID INTERACTION_NEWSPAPER_CCIM = 233964938U;
+        static const AkUniqueID INTERACTION_NEWSPAPER_IWAMF = 2122253030U;
         static const AkUniqueID INTERACTION_NEWSPAPER_TCC = 385821004U;
         static const AkUniqueID INTERACTION_PICTURE_DAUGHTER = 2530462639U;
         static const AkUniqueID INTERACTION_PICTURE_FAMILY = 2849394967U;
