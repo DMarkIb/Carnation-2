@@ -8,18 +8,13 @@ public class Zeitung3 : MonoBehaviour
     public Camera paper3Cam;
     private bool switched = false;
 
-    void Start()
+    private void Start()
     {
         paper3Cam.GetComponent<Camera>().enabled = false;
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    void Update()
-    {
-
-    }
-
-    public void OnMouseEnter()
+    private void OnMouseEnter()
     {
         if (GameObject.Find("ETObj3") == null && switched == false)
         {
@@ -27,7 +22,7 @@ public class Zeitung3 : MonoBehaviour
         }
     }
 
-    public void OnMouseExit()
+    private void OnMouseExit()
     {
         if (GameObject.Find("ETObj3") == null && switched == false)
         {
@@ -35,18 +30,13 @@ public class Zeitung3 : MonoBehaviour
         }
     }
 
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         if (GameObject.Find("ETObj3") == null && switched == false)
         {
-            CameraSwitch();
+            paper3Cam.GetComponent<Camera>().enabled = true;
+            RC.GetComponent<Camera>().enabled = false;
+            switched = true;
         }
-    }
-
-    private void CameraSwitch()
-    {
-        paper3Cam.GetComponent<Camera>().enabled = true;
-        RC.GetComponent<Camera>().enabled = false;
-        switched = true;
     }
 }

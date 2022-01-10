@@ -7,44 +7,42 @@ public class Wim : MonoBehaviour
     public Camera cam1;
     public Camera maincam;
 
-    float clicked = 0;
-    float clicktime = 0;
-    float clickdelay = 1f;
+    private float clicked = 0;
+    private float clicktime = 0;
+    private float clickdelay = 1f;
     private GameObject Spieler;
-    bool doppelklick = false;
-    bool Fertig = false;
+    private bool doppelklick = false;
+    private bool Fertig = false;
 
-    bool Wimmelbild = false;
+    private bool Wimmelbild = false;
 
-    public int counter;
-
-    void Start()
+    private void Start()
     {
         Spieler = GameObject.Find("Spielfigur");
 
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         clicked++;
         clicktime = Time.time;
         Debug.Log("ClickWim");
     }
 
-    public void OnMouseEnter()
+    private void OnMouseEnter()
     {
         if (!Wimmelbild)
             gameObject.GetComponent<Outline>().enabled = true;
     }
-    
-    public void OnMouseExit()
+
+    private void OnMouseExit()
     {
         if (!Wimmelbild)
             gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    void Update()
+    private void Update()
     {
         if (clicked > 1 && Time.time - clicktime < clickdelay)
         {

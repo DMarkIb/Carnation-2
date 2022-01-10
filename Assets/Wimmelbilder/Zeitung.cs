@@ -8,27 +8,22 @@ public class Zeitung : MonoBehaviour
     public Camera paperCam;
     private bool switched = false;
 
-    void Start()
+    private void Start()
     {
         paperCam.GetComponent<Camera>().enabled = false;
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    void Update()
-    {
-        
-    }
-
     //Outlines erst sichtbar, wenn alle objecte weg bewegt und dann automatisch gelöscht wurden
-    public void OnMouseEnter()
+    private void OnMouseEnter()
     {
         if (GameObject.Find("ETObj") == null && switched == false)
         {
             gameObject.GetComponent<Outline>().enabled = true;
         }
     }
-    
-    public void OnMouseExit()
+
+    private void OnMouseExit()
     {
         if (GameObject.Find("ETObj") == null && switched == false)
         {
@@ -36,7 +31,7 @@ public class Zeitung : MonoBehaviour
         }
     }
 
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         if (GameObject.Find("ETObj") == null && switched == false)
         {

@@ -8,18 +8,14 @@ public class Zeitung2 : MonoBehaviour
     public Camera paper2Cam;
     private bool switched = false;
 
-    void Start()
+    private void Start()
     {
         paper2Cam.GetComponent<Camera>().enabled = false;
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    void Update()
-    {
-
-    }
     //Siehe Zeitung.cs für Kommentare
-    public void OnMouseEnter()
+    private void OnMouseEnter()
     {
         if (GameObject.Find("ETObj2") == null && switched == false)
         {
@@ -27,7 +23,7 @@ public class Zeitung2 : MonoBehaviour
         }
     }
 
-    public void OnMouseExit()
+    private void OnMouseExit()
     {
         if (GameObject.Find("ETObj2") == null && switched == false)
         {
@@ -35,18 +31,13 @@ public class Zeitung2 : MonoBehaviour
         }
     }
 
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         if (GameObject.Find("ETObj2") == null && switched == false)
         {
-            CameraSwitch();
+            paper2Cam.GetComponent<Camera>().enabled = true;
+            ET.GetComponent<Camera>().enabled = false;
+            switched = true;
         }
-    }
-
-    private void CameraSwitch()
-    {
-        paper2Cam.GetComponent<Camera>().enabled = true;
-        ET.GetComponent<Camera>().enabled = false;
-        switched = true;
     }
 }

@@ -7,14 +7,8 @@ public class GRPEsstisch : MonoBehaviour
     public Transform von;
     public Transform bis;
     private bool Active;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (GameObject.Find("ETObj") == null && Active == false)
         {

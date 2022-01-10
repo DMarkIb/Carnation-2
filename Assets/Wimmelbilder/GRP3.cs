@@ -11,13 +11,12 @@ public class GRP3 : MonoBehaviour
     public Camera paperCam;
     public GameObject Spieler;
 
-    void Start()
+    private void Start()
     {
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (GameObject.Find("ETObj3") == null && Active == false)
         {
@@ -26,7 +25,7 @@ public class GRP3 : MonoBehaviour
         }
     }
 
-    public void OnMouseEnter()
+    private void OnMouseEnter()
     {
         if (GameObject.Find("ETObj3") == null)
         {
@@ -34,7 +33,7 @@ public class GRP3 : MonoBehaviour
         }
     }
 
-    public void OnMouseExit()
+    private void OnMouseExit()
     {
         if (GameObject.Find("ETObj3") == null)
         {
@@ -42,7 +41,7 @@ public class GRP3 : MonoBehaviour
         }
     }
 
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         paperCam.GetComponent<Camera>().enabled = true;
         mainCam.GetComponent<Camera>().enabled = false;

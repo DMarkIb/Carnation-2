@@ -6,20 +6,9 @@ public class ZeitungFin : MonoBehaviour
 {
     public Camera paperCam;
     public Camera mainCam;
-
     public GameObject Spieler;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         paperCam.GetComponent<Camera>().enabled = false;
         mainCam.GetComponent<Camera>().enabled = true;

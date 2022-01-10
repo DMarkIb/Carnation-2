@@ -6,22 +6,9 @@ public class ZeitungFin2 : MonoBehaviour
 {
     public Camera paper2Cam;
     public Camera mainCam;
-
     public GameObject Spieler;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         Debug.Log("Cam Switch");
         paper2Cam.GetComponent<Camera>().enabled = false;

@@ -8,14 +8,14 @@ public class Trigger : MonoBehaviour
     public Camera maincam;
     public Animator Player;
 
-    float clicked = 0;
-    float clicktime = 0;
+    private float clicked = 0;
+    private float clicktime = 0;
  
     private GameObject Spieler;
-    bool doppelklick = false;
-    bool Wimmelbild = false;
+    private bool doppelklick = false;
+    private bool Wimmelbild = false;
 
-    void Start()
+    private void Start()
     {
         Spieler = GameObject.Find("Spielfigur");
         cam1.GetComponent<Camera>().enabled = false;
@@ -23,35 +23,25 @@ public class Trigger : MonoBehaviour
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
         clicked++;
         clicktime = Time.time;
-        //Debug.Log("ClickTrigger");
-
-        //if (Vector3.Distance(Spieler.transform.position, transform.position) <= 1f && !Wimmelbild)
-        //{
-        //    Player.SetBool("Interaction", true);
-        //    GameObject.Find("Spielfigur").GetComponent<Spielfigur>().enabled = false;
-        //    gameObject.GetComponent<Outline>().enabled = false;
-        //
-        //    StartCoroutine(waiter());
-        //}
     }
 
-    public void OnMouseEnter()
+    private void OnMouseEnter()
     {
         if(!Wimmelbild)
             gameObject.GetComponent<Outline>().enabled = true;
     }
 
-    public void OnMouseExit()
+    private void OnMouseExit()
     {
         if (!Wimmelbild)
             gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    void Update()
+    private void Update()
     {
         if (clicked > 2 || Time.time - clicktime > 1)
         {
@@ -80,7 +70,7 @@ public class Trigger : MonoBehaviour
             doppelklick = false;
         }
     }
-    IEnumerator waiter()
+    private IEnumerator waiter()
     {
         yield return new WaitForSecondsRealtime(2);
         //Debug.Log("Interaction");

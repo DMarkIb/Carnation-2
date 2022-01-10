@@ -8,22 +8,17 @@ public class Destroy : MonoBehaviour
     public Transform From;
     public Transform To;
 
-    public void Start()
+    private void Start()
     {
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
-    void Update()
-    {
-
-    }
-
-    public void OnMouseEnter()
+    private void OnMouseEnter()
     {
         gameObject.GetComponent<Outline>().enabled = true;
     }
 
-    public void OnMouseExit()
+    private void OnMouseExit()
     {
         gameObject.GetComponent<Outline>().enabled = false;
     }
@@ -42,7 +37,7 @@ public class Destroy : MonoBehaviour
         }
     }
 
-    IEnumerator waiterD()
+    private IEnumerator waiterD()
     {
         yield return new WaitForSecondsRealtime(2);
         Destroy(gameObject);
